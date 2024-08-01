@@ -1,0 +1,6 @@
+WRMCB=function(e){var c=console;if(c&&c.log&&c.error){c.log('Error running batched script.');c.error(e);}}
+;
+try {
+/* module-key = 'com.atlassian.servicedesk.frontend-webpack-plugin:split_sd.incident.management.counter', location = 'sd.incident.management.counter.e0f801ac936c9f33f327.js' */
+(window.jsdsjsonp=window.jsdsjsonp||[]).push([[340],{1467:function(t,n,e){"use strict";e.r(n);var i,s=e(35),o=e.n(s),u=e(1),a=e(178),d=e(17),c=e.n(d),l=6e4,f=o.a.isFeatureEnabled("sd.incident.management.feature.polling");(i=Object(u.default)(".aui-nav-item.sd-incidents .aui-badge"))&&i.length&&function t(n){if(document.hidden)setTimeout(function(){t(n)},l);else{var e=c.a.get("projectKey");a.c.getIncidents({status:["open"],size:0},e).then(function(e){e.totalCount>0&&n.show().html(e.totalCount),f&&setTimeout(function(){t(n)},l)})}}(i)}},[[1467,58,85,91,59,60,61,63,74,101,124]]]);
+}catch(e){WRMCB(e)};
