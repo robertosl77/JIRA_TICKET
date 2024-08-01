@@ -1,0 +1,37 @@
++ cat /usr/TMT/trans/GISQA/ejecutados/logs/ActualizarTelefono_UTC_CLIENTES.20230927-095316.log
+
+SQL> UPDATE UTC.CLIENTES SET CLIE_TELEFONO='ABCDEFGHIJKLMN  OPQRSTUVWXYZ' WHERE CLIE_ID='6773413862';
+
+
+
+1 row updated.
+
+
+
+Elapsed: 00:00:00.00
+
+SQL> 
+
+SQL> COMMIT;
+
+
+
+Commit complete.
+
+
+
+Elapsed: 00:00:00.00
+
+SQL> 
+
+SQL> 
+
+SQL> --SE REQUIERE MODIFICAR EL TELEFONO PARA PROBAR QA, TICKET NECOPER-364
+
+SQL> show errors;
+
+No errors.
+
+SQL> 
+
+SQL> exit

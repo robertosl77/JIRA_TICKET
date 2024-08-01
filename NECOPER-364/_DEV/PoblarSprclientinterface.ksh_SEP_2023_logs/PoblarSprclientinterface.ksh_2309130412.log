@@ -1,0 +1,26 @@
+
+
+
+   ______________________________________________________________________________________________________________
+
+                     EJECUCION DE PROCESO - DATE: 13/09/23 04:12:23 - DATABASE: GISPR01
+                                               SCRIPT EJECUTADO: /stage/gis/imple/procesos/TMT/trans/TPR/batch/PoblarSprclientinterface.ksh
+
+   ______________________________________________________________________________________________________________
+
+    * 13/09/23 04:12:23 - Iniciando ejecucion ............... 
+
+
+
+    * 13/09/23 04:13:34 - Detalle Ejecucion proceso ............... 
+
+ID de proceso a ejecutar: 101666.
+RESULTADO: Proceso OK. (1 registros retenidos)
+Comienza el proceso de calles: 101666.
+4:13:34,0863870 -> Comienzo...
+4:13:34,0909470 -> The End !!
+RESULTADO: Proceso OK.
+
+
+    * 13/09/23 04:13:34 - Fin Ejecucion proceso ............... 
+

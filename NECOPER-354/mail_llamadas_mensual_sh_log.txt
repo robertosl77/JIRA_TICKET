@@ -1,0 +1,157 @@
+
+[root@xnetlin1 ~]# cd /ias/mail_llamadas_mensual
+[root@xnetlin1 mail_llamadas_mensual]# ./correr.sh start
+Cargo las variables desde properties
+Inicio proceso: OracleConnect
+Fin proceso: OracleConnect
+Inicio proceso: obtieneDatos
+Fin proceso: obtieneDatos
+Inicio proceso: creaExcel
+Fin proceso: creaExcel
+Inicio proceso: enviaMail
+DEBUG: JavaMail version 1.5.2
+DEBUG: successfully loaded resource: /META-INF/javamail.default.providers
+DEBUG: Tables of loaded providers
+DEBUG: Providers Listed By Class Name: {com.sun.mail.smtp.SMTPSSLTransport=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Oracle], com.sun.mail.smtp.SMTPTransport=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Oracle], com.sun.mail.imap.IMAPSSLStore=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Oracle], com.sun.mail.pop3.POP3SSLStore=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Oracle], com.sun.mail.imap.IMAPStore=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Oracle], com.sun.mail.pop3.POP3Store=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Oracle]}
+DEBUG: Providers Listed By Protocol: {imaps=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Oracle], imap=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Oracle], smtps=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Oracle], pop3=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Oracle], pop3s=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Oracle], smtp=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Oracle]}
+DEBUG: successfully loaded resource: /META-INF/javamail.default.address.map
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Oracle]
+DEBUG SMTP: useEhlo true, useAuth false
+DEBUG SMTP: trying to connect to host "mail.edenor", port 25, isSSL false
+220 F5 SRVTROHCAS005
+DEBUG SMTP: connected to host "mail.edenor", port: 25
+ 
+EHLO xnetlin1.pro.edenor
+250-SRVTROHCAS005.pro.edenor Hello [192.168.143.226]
+250-SIZE 37748736
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-STARTTLS
+250-8BITMIME
+250-BINARYMIME
+250 CHUNKING
+DEBUG SMTP: Found extension "SIZE", arg "37748736"
+DEBUG SMTP: Found extension "PIPELINING", arg ""
+DEBUG SMTP: Found extension "DSN", arg ""
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Found extension "STARTTLS", arg ""
+DEBUG SMTP: Found extension "8BITMIME", arg ""
+DEBUG SMTP: Found extension "BINARYMIME", arg ""
+DEBUG SMTP: Found extension "CHUNKING", arg ""
+DEBUG SMTP: use8bit false
+MAIL FROM:<ITSM_Llamadas_salientes@edenor.com>
+250 2.1.0 Sender OK
+RCPT TO:<LD_Llamadas_Salientes_Consolidado_Mensual@edenor.com>
+250 2.1.5 Recipient OK
+RCPT TO:<ITSM_Desarrollos_propios@edenor.com>
+250 2.1.5 Recipient OK
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   LD_Llamadas_Salientes_Consolidado_Mensual@edenor.com
+DEBUG SMTP:   ITSM_Desarrollos_propios@edenor.com
+DATA
+354 Start mail input; end with <CRLF>.<CRLF>
+Date: Wed, 20 Sep 2023 11:29:06 -0300 (GMT-03:00)
+From: ITSM_Llamadas_salientes@edenor.com
+To: LD_Llamadas_Salientes_Consolidado_Mensual@edenor.com
+Cc: ITSM_Desarrollos_propios@edenor.com
+Message-ID: <664070838.1.1695220146483.JavaMail.ITSM_Llamadas_salientes@edenor.com>
+Subject: Informacion Resumen Llamadas Salientes Efectivas Consolidado
+ Mensual
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+        boundary="----=_Part_0_1374066265.1695220146428"
+ 
+------=_Part_0_1374066265.1695220146428
+Content-Type: application/octet-stream; name=rep_anual_llam_salientes.xlsx
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename=rep_anual_llam_salientes.xlsx
+ 
+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
+DgAAAAA=
+------=_Part_0_1374066265.1695220146428
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+ 
+Este es un mail autom=C3=83=C2=A1tico que exporta el resumen de llamadas sa=
+lientes Efectivas al Excel adjunto.
+-----=_Part_0_1374066265.1695220146428-
+.
+250 2.6.0 <664070838.1.1695220146483.JavaMail.ITSM_Llamadas_salientes@edenor.com> [InternalId=15410342660170, Hostname=SRVTROHCAS006.pro.edenor] 8242 bytes in 0.124, 64,670 KB/sec Queued mail for delivery
+final
+Fin proceso: enviaMail
+[root@xnetlin1 mail_llamadas_mensual]#

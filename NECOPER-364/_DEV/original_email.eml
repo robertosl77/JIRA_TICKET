@@ -1,0 +1,144 @@
+Received: from SN4PR0801MB7968.namprd08.prod.outlook.com
+ (2603:10b6:806:219::6) by BYAPR08MB5173.namprd08.prod.outlook.com with HTTPS;
+ Sat, 5 Feb 2022 06:26:03 +0000
+Received: from DM6PR03CA0007.namprd03.prod.outlook.com (2603:10b6:5:40::20) by
+ SN4PR0801MB7968.namprd08.prod.outlook.com (2603:10b6:806:219::6) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4844.15; Sat, 5 Feb
+ 2022 06:26:02 +0000
+Received: from DM3NAM02FT050.eop-nam02.prod.protection.outlook.com
+ (2603:10b6:5:40:cafe::fb) by DM6PR03CA0007.outlook.office365.com
+ (2603:10b6:5:40::20) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4951.14 via Frontend
+ Transport; Sat, 5 Feb 2022 06:26:01 +0000
+Authentication-Results: spf=fail (sender IP is 179.0.147.30)
+ smtp.mailfrom=edenor.com; dkim=none (message not signed)
+ header.d=none;dmarc=fail action=none header.from=edenor.com;
+Received-SPF: Fail (protection.outlook.com: domain of edenor.com does not
+ designate 179.0.147.30 as permitted sender) receiver=protection.outlook.com;
+ client-ip=179.0.147.30; helo=mail.edenor.com;
+Received: from mail.edenor.com (179.0.147.30) by
+ DM3NAM02FT050.mail.protection.outlook.com (10.13.5.53) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id
+ 15.20.4951.12 via Frontend Transport; Sat, 5 Feb 2022 06:26:01 +0000
+Received: from SRVTROHCAS006.pro.edenor (192.168.143.163) by
+ SRVTROHCAS005.pro.edenor (192.168.143.162) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id
+ 15.1.2308.14; Sat, 5 Feb 2022 03:25:59 -0300
+Received: from ctmappr01.pro.edenor (192.168.143.226) by
+ SRVTROHCAS006.pro.edenor (192.168.143.163) with Microsoft SMTP Server id
+ 15.1.2308.14 via Frontend Transport; Sat, 5 Feb 2022 03:25:59 -0300
+From: Control-M <administraciondecambios@edenor.com>
+Reply-To: <administraciondecambios@edenor.com>
+To: <controlm_cancelaciones@edenor.com>
+Message-ID: <185128856.3034.1644042359855.JavaMail.emctrm@ctmappr01>
+Subject: Cancela el proceso Poblar Spr Client Interface - Circuito 15 en
+ Nexus-Prod-Diario
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Return-Path: administraciondecambios@edenor.com
+Date: Sat, 5 Feb 2022 03:25:59 -0300
+X-MS-Exchange-Organization-ExpirationStartTime: 05 Feb 2022 06:26:01.7089
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ b9eca660-8b1d-4912-ce93-08d9e870615c
+X-EOPAttributedMessage: 0
+X-MS-Exchange-Organization-MessageDirectionality: Originating
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ DM3NAM02FT050.eop-nam02.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-OriginatorOrg: edenor.com
+X-MS-Office365-Filtering-Correlation-Id: b9eca660-8b1d-4912-ce93-08d9e870615c
+X-MS-TrafficTypeDiagnostic: SN4PR0801MB7968:EE_
+X-MS-Oob-TLC-OOBClassifiers: OLM:230;
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: BCL:0;
+X-Forefront-Antispam-Report:
+ CIP:179.0.147.30;CTRY:AR;LANG:es;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:mail.edenor.com;PTR:InfoDomainNonexistent;CAT:NONE;SFS:(4636009)(6636002)(86362001)(3450700001)(356005)(6916009)(33716001)(81166007)(34756004)(5660300002)(82310400004)(26005)(9686003)(336012)(8676002)(1096003)(186003)(9576002)(66574015)(8936002);DIR:INB;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 05 Feb 2022 06:26:01.3495
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: b9eca660-8b1d-4912-ce93-08d9e870615c
+X-MS-Exchange-CrossTenant-Id: 521e430f-ba3c-4d47-9f97-16b945b0a850
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=521e430f-ba3c-4d47-9f97-16b945b0a850;Ip=[179.0.147.30];Helo=[mail.edenor.com]
+X-MS-Exchange-CrossTenant-AuthSource:
+ DM3NAM02FT050.eop-nam02.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SN4PR0801MB7968
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.5262520
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.4951.018
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(930097);
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?Z0JGMndtNnh2Tm5sanVsQU81NjJyM210SjV6ZDZyZTZlNDNsNVFBQ3pxVXRl?=
+ =?utf-8?B?UVYwQjMxcXdZS0VaUWJWM3FQM2VqRzFKLzEzWjlXMVFINjdmelZQQ09samdh?=
+ =?utf-8?B?cTBZa3h6WDJqaC9YeUdSUWwyVUlra0kvMG5lTk9ER0U5MmxSSVRvVUJRMXVH?=
+ =?utf-8?B?c3JHck54aWRtbGV1SzZ1R3htM1lNWjR2dmdxU2JEajlRMFhTOC9LMHprcEtk?=
+ =?utf-8?B?T0duek1Pb0QyekVLWUxLYXBjdXhNbWtVWjNMb0g3TnFuemlGR3l2c0l5akR6?=
+ =?utf-8?B?eEhaL2sycWFTRlB4eVVkK3NuQU5Oc3M4WFQ5K1pJdU54aVJlaDN6N3BCVGVj?=
+ =?utf-8?B?NWNiSHhXamJxN1EwbzVSMERjL3Q1a2Z3VWM5cENhczRneFMzaWxZaTYzZnA0?=
+ =?utf-8?B?VG11OCtzWXVpdFpRTnU4VTdGWWZ2SkNBUVVuYURSNWY1Z2FEWVpsL0xUWUN3?=
+ =?utf-8?B?cWZ4ajdFZFIxWUNhQ3RqQU1MT0ZBK2N1SHNoOFZ3cEMxOUxNVEszWVdSeTVw?=
+ =?utf-8?B?cUd0RHR3Y2hVTEt3bWpsZC9JaXdldnpLTXQzYlcrS1pSZzV4S0dwTkFvQjlT?=
+ =?utf-8?B?SFhucThEV05BNVNtbzl6UzlwU1kvYmErK1ErdW9BSVE1NXZvdFZ0MTc1WWkx?=
+ =?utf-8?B?MVZhbVdnb05XQnZZSTIvckVWUFZlS0psL092anZTZ0RYaGt2WkZ3ckZkS3BX?=
+ =?utf-8?B?ZHYxZlpXQnJ6aWhpU043RHNYSHd2QTFqbGxhQW9ITlJ1MFBQcUtQZ2MvVCtG?=
+ =?utf-8?B?Qlg2d0JiSzVSTWRySDB4Y01wekJVWGJ0dTRWUHNVUGwvVVlmL3Q1aXVaVUdz?=
+ =?utf-8?B?bG5ZQ2xhcmoyMUd6VjQyczE2a0JwbExOTTg4SWx4MUljVmxUVnpGYW5CY1Bt?=
+ =?utf-8?B?TCtkVHExbjI0WEc2OHdhN3hsN1FiNkdhZGxDb0IwL1ROaEVmd3lqUVZwYzRP?=
+ =?utf-8?B?Yi9FQ3YzV3pmT2p0UmRBb0xqV0QrbTZBSkJUcVdsVHhZQmxxU0hnazFQbUhP?=
+ =?utf-8?B?TXpRNnUxVGFmVHBpVnR5a1lReWtsci9OVDFHVzFPTmRRRVZ5cEd2M0hwY29r?=
+ =?utf-8?B?RGNRQTZtU0hsdk5pNW1ESDR0TmNLamVKYnFnVWxnSWpvRTB3U3pGM1MvQ1F2?=
+ =?utf-8?B?MnYxUUdiVEUxZXNxU0Ezdi9XdnJHOFd6Zkh1SnBYMmFlK2hNZjFvWmJCMG40?=
+ =?utf-8?B?cDV5Y0dqWnZQbU9qay9tWDE0UWVBbFVXRUtBYWlWaGtwOG9FMkRzNTBYK0Z3?=
+ =?utf-8?B?a2Fsc3E3WEpBb0hrUWFGa3FsQ3FGTlpDcVFyb1FqR3hFeEphS1ZxZW9FcTUx?=
+ =?utf-8?B?bGY3MXkxL1MzeG00ME9rbFRvTWRIZXNnakdPaThUNGtxZUpoR2RzY21UNU5v?=
+ =?utf-8?B?WldEUFI4L0VkMDZjNDIvOGFGYnZMbFA4eVlXWm56RUZFSzI4V3ZFMXBBbnNu?=
+ =?utf-8?B?YnFZbGNzSUc2WkRsZ1c4dGxxV1hZRkNlampxMHFsakVYYm9sNzY3WFRMeFow?=
+ =?utf-8?B?aFh5dlBSdlNYbGVMQVhraWtmc25aT3RyWnNJZjVOMmJiWXdxck5IZ2ZmMC9l?=
+ =?utf-8?B?UFlrRlJ2d1JRVGkrMG9Cb3NWZDJZZDJyckx6MTQxaVYwbUlyMDV2YVRNRkpO?=
+ =?utf-8?B?QnFhZjFnbmJXUzh5cW5Zc0NuUWZSMERHRkw3WlRqOTBiZGJjbHlERlhsSS9a?=
+ =?utf-8?B?aXZBMHJEajhHalNheEdNblVGeE80Wjk1VFNIZzhkcTR4SkEvYWZ6V1FQZ1Q1?=
+ =?utf-8?B?Ym5zNnJrazlSZ2dNUDc0c3M2RmFDRlpNMHNOK1U4SUhCUmhxczEvZnZXZFlJ?=
+ =?utf-8?B?SXUxTVcyOGVLdlZWeTRXWG1JQy90R2VvRTBZeGZock9obEphODl2Y0NGYWFa?=
+ =?utf-8?B?UXJuSFNXenFIY3VTeGZIdUNLcXc0OVN6YS9xb2RlMWkwcVRxUk9CU20vVnRs?=
+ =?utf-8?B?TUZHRFl2VWIvOU1mcE8zWVRpQnh2Vk8yWHQrZEE5bHpFYUQweVI4alRFOWtt?=
+ =?utf-8?B?UEhmdjFTbkl6ZUE2eFBDQ01hU2p2ZWltL3c0R1dXa3FVQ2dqNysraG9hZkVo?=
+ =?utf-8?B?YmlCaFZ1T2VmTkpiRGdqcElmZ2dGbGIxNXZsQ2p3eFp3SVJPbmdHR1B6TXRK?=
+ =?utf-8?B?cE5DVzNsTDJkdzkwRjY0TXQ4aVJoN3ROMUhqY2lpUnBaeU5KV1k3QTcyeVJl?=
+ =?utf-8?B?TVZDOFYvUjE4bGF1WVIrdTJYMlQ0YzAvVHdJejRqbmV2QnArcm1naWRZNVlC?=
+ =?utf-8?B?ekFvdnFZYXdNUytSQ1RiMGpUeUd4dWRPYlFGcUtETjlQL0ZuSFh4N2NWSCtG?=
+ =?utf-8?B?MldMaGlFRTZqSTR2eWVRTi9xdUhLM0RXK2RvR2RvcXJDamtYR1dYamMyY3pC?=
+ =?utf-8?Q?ya5PteyWZYXQS81B1aAjn67EwPWjDyrAVYfr5?=
+MIME-Version: 1.0
+
+Prioridad:"Baja"Ambiente:"PROD"
+Job:"Poblar Spr Client Interface"
+App:"Nexus-Prod-Diario"
+Subapp:"Circuito 15"
+Descripcion:"Cancela el job Poblar Spr Client Interface - Host ltronxgisbdp=
+r01 - Fecha:20220204"
+
+
+________________________________
+
+AVISO LEGAL: "El presente mail es privado, confidencial y est=C3=A1 dirigid=
+o =C3=BAnicamente a su destinatario. Si usted no es el destinatario espec=
+=C3=ADfico de este mensaje o persona debidamente autorizada por el emisor y=
+ por este medio pudo acceder a dicha informaci=C3=B3n por favor elimine el =
+mensaje, as=C3=AD como todas sus copias de su sistema e informe tal situaci=
+=C3=B3n reenviando el mensaje al emisor. La distribuci=C3=B3n o copia de es=
+te mensaje est=C3=A1 estrictamente prohibida. Esta comunicaci=C3=B3n es s=
+=C3=B3lo para prop=C3=B3sitos de informaci=C3=B3n y no debe ser interpretad=
+a como propuesta, aceptaci=C3=B3n ni como una declaraci=C3=B3n de voluntad =
+oficial de Edenor S.A. El emisor no acepta responsabilidad alguna por error=
+es u omisiones contenidas en este mensaje o sus anexos, ni garantiza la seg=
+uridad, exactitud o tempestividad de lo transmitido por este medio debido a=
+ que el mismo puede ser objeto de interpretaci=C3=B3n, alteraci=C3=B3n, dem=
+ora, perdida, contener virus inform=C3=A1ticos u otras anomal=C3=ADas. Por =
+consiguiente, no manifestamos que esta informaci=C3=B3n sea completa o prec=
+isa. Toda informaci=C3=B3n est=C3=A1 sujeta a alterarse sin previo aviso".

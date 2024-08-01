@@ -1,0 +1,20 @@
+   ______________________________________________________________________________________________________________
+
+                     EJECUCION DE PROCESO - DATE: 14/09/23 03:51:21 - DATABASE: GISPR01
+                                               SCRIPT EJECUTADO: /stage/gis/imple/procesos/TMT/trans/TPR/batch/Cir15_Puebla_Clientes.ksh
+
+   ______________________________________________________________________________________________________________
+
+    * 14/09/23 03:51:21 - Iniciando ejecucion ...............
+
+
+
+    * 14/09/23 03:55:21 - Detalle Ejecucion proceso ...............
+
+*********** PROCESO PUEBLA CLIENTES ***********
+Comienzo: 14/09/2023 03:51:21
+RESULTADO: Proceso OK.
+Fin: 14/09/2023 03:55:21
+
+
+    * 14/09/23 03:55:21 - Fin Ejecucion proceso ...............

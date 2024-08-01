@@ -1,0 +1,739 @@
+
+
+   ______________________________________________________________________________________________________________
+
+                     EJECUCION DE PROCESO - DATE: 03/10/22 13:57:07 - DATABASE: GISPR02
+                                               SCRIPT EJECUTADO: /stage/gis/imple/procesos/TMT/trans/TPR/batch/DLSOT_1144_Reemplaza_kWH_por_kVAh.ksh
+
+   ______________________________________________________________________________________________________________
+
+    * 03/10/22 13:57:07 - Iniciando ejecucion ............... 
+
+
+
+    * 03/10/22 13:57:07 - Detalle Ejecucion proceso ............... 
+
+-------------------------------------------------------------------------------------------------------
+77598,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | HELADERA COVID,[Calculo] Se requiere instalar un
+equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+-------------------------------------------------------------------------------------------------------
+81740,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | HELADERA COVID,[Calculo] Se requiere instalar un
+equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+-------------------------------------------------------------------------------------------------------
+77265,61,[Actualización] | Se modifica la capacidad de BBP0061 a 9.6 kWH,[Actualización] | Se modifica la capacidad de
+BBP0061 a 9.6 kVAh
+CORREGIDO>>>[Actualización] | Se modifica la capacidad de BBP0061 a 9.6 kVAh
+-------------------------------------------------------------------------------------------------------
+77575,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | HELADERA COVID,[Calculo] Se requiere instalar un
+equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+-------------------------------------------------------------------------------------------------------
+77637,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | HELADERA COVID,[Calculo] Se requiere instalar un
+equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+-------------------------------------------------------------------------------------------------------
+78429,58,[Actualización] | Se modifica la capacidad de null a 9.6 kWH,[Actualización] | Se modifica la capacidad de null
+a 9.6 kVAh
+CORREGIDO>>>[Actualización] | Se modifica la capacidad de null a 9.6 kVAh
+-------------------------------------------------------------------------------------------------------
+78436,61,[Actualización] | Se modifica la capacidad de BBP0166 a 3.6 kWH,[Actualización] | Se modifica la capacidad de
+BBP0166 a 3.6 kVAh
+CORREGIDO>>>[Actualización] | Se modifica la capacidad de BBP0166 a 3.6 kVAh
+-------------------------------------------------------------------------------------------------------
+74753,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | Aspirador de secreciones, Bomba de alimentacion,
+Bomba infusion, Concentrador de oxigeno, Nebulizador, Respirador, Saturador,[Calculo] Se requiere instalar un equipo de
+3 kVA y 4.8 kVAh | Aspirador de secreciones, Bomba de alimentacion, Bomba infusion, Concentrador de oxigeno,
+Nebulizador, Respirador, Saturador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | Aspirador de secreciones, Bomba de
+alimentacion, Bomba infusion, Concentrador de oxigeno, Nebulizador, Respirador, Saturador
+-------------------------------------------------------------------------------------------------------
+77571,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | HELADERA COVID,[Calculo] Se requiere instalar un
+equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+-------------------------------------------------------------------------------------------------------
+74414,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | Concentrador de oxigeno, Nebulizador,[Calculo] Se
+requiere instalar un equipo de 1 kVA y 3.6 kVAh | Concentrador de oxigeno, Nebulizador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Concentrador de oxigeno, Nebulizador
+-------------------------------------------------------------------------------------------------------
+74202,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | Aspirador de secreciones, Concentrador de
+oxigeno, Nebulizador, Saturador,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Aspirador de secreciones,
+Concentrador de oxigeno, Nebulizador, Saturador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Aspirador de secreciones, Concentrador de
+oxigeno, Nebulizador, Saturador
+-------------------------------------------------------------------------------------------------------
+77271,60,[Actualización] | Se modifica la capacidad de BBP0003 a 12 kWH,[Actualización] | Se modifica la capacidad de
+BBP0003 a 12 kVAh
+CORREGIDO>>>[Actualización] | Se modifica la capacidad de BBP0003 a 12 kVAh
+-------------------------------------------------------------------------------------------------------
+77602,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | HELADERA COVID,[Calculo] Se requiere instalar un
+equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+-------------------------------------------------------------------------------------------------------
+77606,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | HELADERA COVID,[Calculo] Se requiere instalar un
+equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+-------------------------------------------------------------------------------------------------------
+74341,61,[Actualización] | Se modifica la capacidad de BBP0014 a 8.4 kWH,[Actualización] | Se modifica la capacidad de
+BBP0014 a 8.4 kVAh
+CORREGIDO>>>[Actualización] | Se modifica la capacidad de BBP0014 a 8.4 kVAh
+-------------------------------------------------------------------------------------------------------
+78432,61,[Actualización] | Se modifica la capacidad de BBP0156 a 9.6 kWH,[Actualización] | Se modifica la capacidad de
+BBP0156 a 9.6 kVAh
+CORREGIDO>>>[Actualización] | Se modifica la capacidad de BBP0156 a 9.6 kVAh
+-------------------------------------------------------------------------------------------------------
+78454,58,[Actualización] | Se modifica la capacidad de null a 3.6 kWH,[Actualización] | Se modifica la capacidad de null
+a 3.6 kVAh
+CORREGIDO>>>[Actualización] | Se modifica la capacidad de null a 3.6 kVAh
+-------------------------------------------------------------------------------------------------------
+77092,61,[Actualización] | Se modifica la capacidad de BBP0043 a 9.6 kWH,[Actualización] | Se modifica la capacidad de
+BBP0043 a 9.6 kVAh
+CORREGIDO>>>[Actualización] | Se modifica la capacidad de BBP0043 a 9.6 kVAh
+-------------------------------------------------------------------------------------------------------
+83685,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | Concentrador de oxigeno,[Calculo] Se requiere
+instalar un equipo de 1 kVA y 3.6 kVAh | Concentrador de oxigeno
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Concentrador de oxigeno
+-------------------------------------------------------------------------------------------------------
+83686,61,[Nueva orden] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | Concentrador de oxigeno,[Nueva orden] Se
+requiere instalar un equipo de 1 kVA y 3.6 kVAh | Concentrador de oxigeno
+CORREGIDO>>>[Nueva orden] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Concentrador de oxigeno
+-------------------------------------------------------------------------------------------------------
+77586,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | HELADERA COVID,[Calculo] Se requiere instalar un
+equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+-------------------------------------------------------------------------------------------------------
+77664,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | HELADERA COVID,[Calculo] Se requiere instalar un
+equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+-------------------------------------------------------------------------------------------------------
+74763,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | Aspirador de secreciones, Concentrador de
+oxigeno,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Aspirador de secreciones, Concentrador de oxigeno
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Aspirador de secreciones, Concentrador de
+oxigeno
+-------------------------------------------------------------------------------------------------------
+74155,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | CPAP,[Calculo] Se requiere instalar un equipo de
+1 kVA y 3.6 kVAh | CPAP
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | CPAP
+-------------------------------------------------------------------------------------------------------
+74237,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | Concentrador de oxigeno, Respirador,[Calculo] Se
+requiere instalar un equipo de 3 kVA y 4.8 kVAh | Concentrador de oxigeno, Respirador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | Concentrador de oxigeno, Respirador
+-------------------------------------------------------------------------------------------------------
+74257,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | Aspirador de secreciones, Concentrador de
+oxigeno, Nebulizador, Saturador,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Aspirador de secreciones,
+Concentrador de oxigeno, Nebulizador, Saturador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Aspirador de secreciones, Concentrador de
+oxigeno, Nebulizador, Saturador
+-------------------------------------------------------------------------------------------------------
+74587,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | CPAP,[Calculo] Se requiere instalar un equipo de
+1 kVA y 3.6 kVAh | CPAP
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | CPAP
+-------------------------------------------------------------------------------------------------------
+75875,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | Asistencia respiratoria mecanica, Concentrador de
+oxigeno, Nebulizador,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Asistencia respiratoria mecanica,
+Concentrador de oxigeno, Nebulizador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Asistencia respiratoria mecanica,
+Concentrador de oxigeno, Nebulizador
+-------------------------------------------------------------------------------------------------------
+78986,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | Concentrador de oxigeno,[Calculo] Se requiere
+instalar un equipo de 1 kVA y 3.6 kVAh | Concentrador de oxigeno
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Concentrador de oxigeno
+-------------------------------------------------------------------------------------------------------
+76686,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | Concentrador de oxigeno,[Calculo] Se requiere
+instalar un equipo de 1 kVA y 3.6 kVAh | Concentrador de oxigeno
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Concentrador de oxigeno
+-------------------------------------------------------------------------------------------------------
+76735,61,[Actualización] | Se modifica la capacidad de BBP0016 a 8.4 kWH,[Actualización] | Se modifica la capacidad de
+BBP0016 a 8.4 kVAh
+CORREGIDO>>>[Actualización] | Se modifica la capacidad de BBP0016 a 8.4 kVAh
+-------------------------------------------------------------------------------------------------------
+77306,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | BPAP,[Calculo] Se requiere instalar un equipo de
+1 kVA y 3.6 kVAh | BPAP
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | BPAP
+-------------------------------------------------------------------------------------------------------
+77557,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | HELADERA COVID,[Calculo] Se requiere instalar un
+equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+-------------------------------------------------------------------------------------------------------
+77562,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | HELADERA COVID,[Calculo] Se requiere instalar un
+equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+-------------------------------------------------------------------------------------------------------
+77033,61,[Actualización] | Se modifica la capacidad de BBP0046 a 7.2 kWH,[Actualización] | Se modifica la capacidad de
+BBP0046 a 7.2 kVAh
+CORREGIDO>>>[Actualización] | Se modifica la capacidad de BBP0046 a 7.2 kVAh
+-------------------------------------------------------------------------------------------------------
+78452,58,[Actualización] | Se modifica la capacidad de null a 3.6 kWH,[Actualización] | Se modifica la capacidad de null
+a 3.6 kVAh
+CORREGIDO>>>[Actualización] | Se modifica la capacidad de null a 3.6 kVAh
+-------------------------------------------------------------------------------------------------------
+82825,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | Nebulizador,[Calculo] Se requiere instalar un
+equipo de 1 kVA y 3.6 kVAh | Nebulizador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Nebulizador
+-------------------------------------------------------------------------------------------------------
+82826,61,[Nueva orden] Se requiere instalar un equipo de 1 kVA y 3.6 kWH,[Nueva orden] Se requiere instalar un equipo de
+1 kVA y 3.6 kVAh
+CORREGIDO>>>[Nueva orden] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh
+-------------------------------------------------------------------------------------------------------
+74219,59,[Actualización] | Se modifica la capacidad de BBP0008 a 6 kWH,[Actualización] | Se modifica la capacidad de
+BBP0008 a 6 kVAh
+CORREGIDO>>>[Actualización] | Se modifica la capacidad de BBP0008 a 6 kVAh
+-------------------------------------------------------------------------------------------------------
+74738,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | Aspirador de secreciones, Bomba de alimentacion,
+Bomba infusion, Concentrador de oxigeno, Nebulizador, Respirador, Saturador,[Calculo] Se requiere instalar un equipo de
+1 kVA y 3.6 kVAh | Aspirador de secreciones, Bomba de alimentacion, Bomba infusion, Concentrador de oxigeno,
+Nebulizador, Respirador, Saturador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Aspirador de secreciones, Bomba de
+alimentacion, Bomba infusion, Concentrador de oxigeno, Nebulizador, Respirador, Saturador
+-------------------------------------------------------------------------------------------------------
+77100,61,[Actualización] | Se modifica la capacidad de BBP0041 a 9.6 kWH,[Actualización] | Se modifica la capacidad de
+BBP0041 a 9.6 kVAh
+CORREGIDO>>>[Actualización] | Se modifica la capacidad de BBP0041 a 9.6 kVAh
+-------------------------------------------------------------------------------------------------------
+77610,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | HELADERA COVID,[Calculo] Se requiere instalar un
+equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+-------------------------------------------------------------------------------------------------------
+77614,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | HELADERA COVID,[Calculo] Se requiere instalar un
+equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+-------------------------------------------------------------------------------------------------------
+77628,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | HELADERA COVID,[Calculo] Se requiere instalar un
+equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+-------------------------------------------------------------------------------------------------------
+80823,55,[Calculo] Se requiere instalar un equipo de 1 kVA y 6 kWH | Aspirador de secreciones, Bomba de alimentacion,
+Colchon antiescaras, Concentrador de oxigeno, Respirador, Saturador, Cama electrica motorizada,[Calculo] Se requiere
+instalar un equipo de 1 kVA y 6 kVAh | Aspirador de secreciones, Bomba de alimentacion, Colchon antiescaras,
+Concentrador de oxigeno, Respirador, Saturador, Cama electrica motorizada
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 6 kVAh | Aspirador de secreciones, Bomba de
+alimentacion, Colchon antiescaras, Concentrador de oxigeno, Respirador, Saturador, Cama electrica motorizada
+-------------------------------------------------------------------------------------------------------
+85526,61,[Actualización] | Se modifica la capacidad de BBP0073 a 3.6 kWH,[Actualización] | Se modifica la capacidad de
+BBP0073 a 3.6 kVAh
+CORREGIDO>>>[Actualización] | Se modifica la capacidad de BBP0073 a 3.6 kVAh
+-------------------------------------------------------------------------------------------------------
+74136,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | Aspirador de secreciones, Bomba de alimentacion,
+Bomba infusion, Concentrador de oxigeno, Nebulizador, Saturador,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6
+kVAh | Aspirador de secreciones, Bomba de alimentacion, Bomba infusion, Concentrador de oxigeno, Nebulizador, Saturador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Aspirador de secreciones, Bomba de
+alimentacion, Bomba infusion, Concentrador de oxigeno, Nebulizador, Saturador
+-------------------------------------------------------------------------------------------------------
+74365,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | Aspirador de secreciones, Bomba de alimentacion,
+Bomba infusion, Concentrador de oxigeno, Saturador,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh |
+Aspirador de secreciones, Bomba de alimentacion, Bomba infusion, Concentrador de oxigeno, Saturador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Aspirador de secreciones, Bomba de
+alimentacion, Bomba infusion, Concentrador de oxigeno, Saturador
+-------------------------------------------------------------------------------------------------------
+76905,58,[Actualización] | Se modifica la capacidad de null a 7.2 kWH,[Actualización] | Se modifica la capacidad de null
+a 7.2 kVAh
+CORREGIDO>>>[Actualización] | Se modifica la capacidad de null a 7.2 kVAh
+-------------------------------------------------------------------------------------------------------
+76908,61,[Actualización] | Se modifica la capacidad de BBP0047 a 7.2 kWH,[Actualización] | Se modifica la capacidad de
+BBP0047 a 7.2 kVAh
+CORREGIDO>>>[Actualización] | Se modifica la capacidad de BBP0047 a 7.2 kVAh
+-------------------------------------------------------------------------------------------------------
+77261,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 9.6 kWH | Acondicionador de aire, Asistencia respiratoria
+mecanica, Aspirador de secreciones, Bomba infusion, Humidificador, Respirador, Saturador,[Calculo] Se requiere instalar
+un equipo de 3 kVA y 9.6 kVAh | Acondicionador de aire, Asistencia respiratoria mecanica, Aspirador de secreciones,
+Bomba infusion, Humidificador, Respirador, Saturador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 9.6 kVAh | Acondicionador de aire, Asistencia
+respiratoria mecanica, Aspirador de secreciones, Bomba infusion, Humidificador, Respirador, Saturador
+-------------------------------------------------------------------------------------------------------
+77549,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | HELADERA COVID,[Calculo] Se requiere instalar un
+equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+-------------------------------------------------------------------------------------------------------
+77579,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | HELADERA COVID,[Calculo] Se requiere instalar un
+equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+-------------------------------------------------------------------------------------------------------
+73547,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | Aspirador de secreciones, BPAP, Cama electrica
+motorizada,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Aspirador de secreciones, BPAP, Cama electrica
+motorizada
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Aspirador de secreciones, BPAP, Cama
+electrica motorizada
+-------------------------------------------------------------------------------------------------------
+77282,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | Bomba de alimentacion, Colchon
+antiescaras,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Bomba de alimentacion, Colchon antiescaras
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Bomba de alimentacion, Colchon antiescaras
+-------------------------------------------------------------------------------------------------------
+77267,56,[Calculo] Se requiere instalar un equipo de 3 kVA y 12 kWH | Aspirador de secreciones, Bomba de alimentacion,
+Bomba infusion, Colchon antiescaras,[Calculo] Se requiere instalar un equipo de 3 kVA y 12 kVAh | Aspirador de
+secreciones, Bomba de alimentacion, Bomba infusion, Colchon antiescaras
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 12 kVAh | Aspirador de secreciones, Bomba de
+alimentacion, Bomba infusion, Colchon antiescaras
+-------------------------------------------------------------------------------------------------------
+74181,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | Aspirador de secreciones, BPAP, Bomba de
+alimentacion, Bomba infusion, Concentrador de oxigeno, Saturador,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8
+kVAh | Aspirador de secreciones, BPAP, Bomba de alimentacion, Bomba infusion, Concentrador de oxigeno, Saturador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | Aspirador de secreciones, BPAP, Bomba de
+alimentacion, Bomba infusion, Concentrador de oxigeno, Saturador
+-------------------------------------------------------------------------------------------------------
+74231,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | Concentrador de oxigeno, Respirador,[Calculo] Se
+requiere instalar un equipo de 1 kVA y 3.6 kVAh | Concentrador de oxigeno, Respirador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Concentrador de oxigeno, Respirador
+-------------------------------------------------------------------------------------------------------
+74236,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | Concentrador de oxigeno, Respirador,[Calculo] Se
+requiere instalar un equipo de 3 kVA y 4.8 kVAh | Concentrador de oxigeno, Respirador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | Concentrador de oxigeno, Respirador
+-------------------------------------------------------------------------------------------------------
+76408,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | Aspirador de secreciones, Bomba de alimentacion,
+Concentrador de oxigeno, Saturador,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | Aspirador de
+secreciones, Bomba de alimentacion, Concentrador de oxigeno, Saturador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | Aspirador de secreciones, Bomba de
+alimentacion, Concentrador de oxigeno, Saturador
+-------------------------------------------------------------------------------------------------------
+74375,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | CPAP, Respirador,[Calculo] Se requiere instalar
+un equipo de 1 kVA y 3.6 kVAh | CPAP, Respirador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | CPAP, Respirador
+-------------------------------------------------------------------------------------------------------
+74386,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | BPAP, Concentrador de oxigeno,[Calculo] Se
+requiere instalar un equipo de 1 kVA y 3.6 kVAh | BPAP, Concentrador de oxigeno
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | BPAP, Concentrador de oxigeno
+-------------------------------------------------------------------------------------------------------
+76731,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 8.4 kWH | Aspirador de secreciones, BPAP, Bomba de
+alimentacion, Concentrador de oxigeno,[Calculo] Se requiere instalar un equipo de 1 kVA y 8.4 kVAh | Aspirador de
+secreciones, BPAP, Bomba de alimentacion, Concentrador de oxigeno
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 8.4 kVAh | Aspirador de secreciones, BPAP, Bomba de
+alimentacion, Concentrador de oxigeno
+-------------------------------------------------------------------------------------------------------
+74330,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | CPAP, Concentrador de oxigeno,
+Nebulizador,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | CPAP, Concentrador de oxigeno, Nebulizador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | CPAP, Concentrador de oxigeno, Nebulizador
+-------------------------------------------------------------------------------------------------------
+81717,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | Aspirador de secreciones, BPAP, Bomba de
+alimentacion, Concentrador de oxigeno, Humidificador, Nebulizador, Saturador,[Calculo] Se requiere instalar un equipo de
+3 kVA y 4.8 kVAh | Aspirador de secreciones, BPAP, Bomba de alimentacion, Concentrador de oxigeno, Humidificador,
+Nebulizador, Saturador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | Aspirador de secreciones, BPAP, Bomba de
+alimentacion, Concentrador de oxigeno, Humidificador, Nebulizador, Saturador
+-------------------------------------------------------------------------------------------------------
+74230,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | Concentrador de oxigeno, Respirador,[Calculo] Se
+requiere instalar un equipo de 1 kVA y 3.6 kVAh | Concentrador de oxigeno, Respirador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Concentrador de oxigeno, Respirador
+-------------------------------------------------------------------------------------------------------
+84448,55,[Calculo] Se requiere instalar un equipo de 1 kVA y 6 kWH | Aspirador de secreciones, BPAP, Bomba de
+alimentacion, Concentrador de oxigeno, Respirador, Asistencia respiratoria mecanica,[Calculo] Se requiere instalar un
+equipo de 1 kVA y 6 kVAh | Aspirador de secreciones, BPAP, Bomba de alimentacion, Concentrador de oxigeno, Respirador,
+Asistencia respiratoria mecanica
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 6 kVAh | Aspirador de secreciones, BPAP, Bomba de
+alimentacion, Concentrador de oxigeno, Respirador, Asistencia respiratoria mecanica
+-------------------------------------------------------------------------------------------------------
+75617,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | Aspirador de secreciones, Bomba de alimentacion,
+Concentrador de oxigeno, Saturador,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | Aspirador de
+secreciones, Bomba de alimentacion, Concentrador de oxigeno, Saturador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | Aspirador de secreciones, Bomba de
+alimentacion, Concentrador de oxigeno, Saturador
+-------------------------------------------------------------------------------------------------------
+90484,56,[Calculo] Se requiere instalar un equipo de 3 kVA y 12 kWH | Acondicionador de aire, Concentrador de oxigeno,
+Nebulizador,[Calculo] Se requiere instalar un equipo de 3 kVA y 12 kVAh | Acondicionador de aire, Concentrador de
+oxigeno, Nebulizador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 12 kVAh | Acondicionador de aire, Concentrador de
+oxigeno, Nebulizador
+-------------------------------------------------------------------------------------------------------
+82732,61,[Actualización] | Se modifica la capacidad de BBP0024 a 9.6 kWH,[Actualización] | Se modifica la capacidad de
+BBP0024 a 9.6 kVAh
+CORREGIDO>>>[Actualización] | Se modifica la capacidad de BBP0024 a 9.6 kVAh
+-------------------------------------------------------------------------------------------------------
+82902,56,[Actualización] | Se modifica la capacidad de null a 6 kWH,[Actualización] | Se modifica la capacidad de null a
+6 kVAh
+CORREGIDO>>>[Actualización] | Se modifica la capacidad de null a 6 kVAh
+-------------------------------------------------------------------------------------------------------
+74217,59,[Actualización] | Se modifica la capacidad de BBP0008 a 6 kWH,[Actualización] | Se modifica la capacidad de
+BBP0008 a 6 kVAh
+CORREGIDO>>>[Actualización] | Se modifica la capacidad de BBP0008 a 6 kVAh
+-------------------------------------------------------------------------------------------------------
+74221,59,[Actualización] | Se modifica la capacidad de BBP0008 a 6 kWH,[Actualización] | Se modifica la capacidad de
+BBP0008 a 6 kVAh
+CORREGIDO>>>[Actualización] | Se modifica la capacidad de BBP0008 a 6 kVAh
+-------------------------------------------------------------------------------------------------------
+91855,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | Aspirador de secreciones, Bomba de alimentacion,
+Concentrador de oxigeno, Humidificador, Nebulizador, Saturador,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8
+kVAh | Aspirador de secreciones, Bomba de alimentacion, Concentrador de oxigeno, Humidificador, Nebulizador, Saturador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | Aspirador de secreciones, Bomba de
+alimentacion, Concentrador de oxigeno, Humidificador, Nebulizador, Saturador
+-------------------------------------------------------------------------------------------------------
+80581,55,[Calculo] Se requiere instalar un equipo de 3 kVA y 6 kWH | Aspirador de secreciones, BPAP, Cama electrica
+motorizada, Colchon antiescaras, Concentrador de oxigeno, Respirador, Nebulizador,[Calculo] Se requiere instalar un
+equipo de 3 kVA y 6 kVAh | Aspirador de secreciones, BPAP, Cama electrica motorizada, Colchon antiescaras, Concentrador
+de oxigeno, Respirador, Nebulizador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 6 kVAh | Aspirador de secreciones, BPAP, Cama electrica
+motorizada, Colchon antiescaras, Concentrador de oxigeno, Respirador, Nebulizador
+-------------------------------------------------------------------------------------------------------
+74857,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 9.6 kWH | Aspirador de secreciones, Bomba de alimentacion,
+Colchon antiescaras, Concentrador O2 10L, Humidificador, Respirador, Saturador,[Calculo] Se requiere instalar un equipo
+de 3 kVA y 9.6 kVAh | Aspirador de secreciones, Bomba de alimentacion, Colchon antiescaras, Concentrador O2 10L,
+Humidificador, Respirador, Saturador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 9.6 kVAh | Aspirador de secreciones, Bomba de
+alimentacion, Colchon antiescaras, Concentrador O2 10L, Humidificador, Respirador, Saturador
+-------------------------------------------------------------------------------------------------------
+75630,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | Asistencia respiratoria mecanica, Aspirador de
+secreciones, Bomba de alimentacion, Concentrador de oxigeno,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh
+| Asistencia respiratoria mecanica, Aspirador de secreciones, Bomba de alimentacion, Concentrador de oxigeno
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | Asistencia respiratoria mecanica, Aspirador
+de secreciones, Bomba de alimentacion, Concentrador de oxigeno
+-------------------------------------------------------------------------------------------------------
+74413,55,[Calculo] Se requiere instalar un equipo de 1 kVA y 6 kWH | Concentrador de oxigeno, Nebulizador,[Calculo] Se
+requiere instalar un equipo de 1 kVA y 6 kVAh | Concentrador de oxigeno, Nebulizador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 6 kVAh | Concentrador de oxigeno, Nebulizador
+-------------------------------------------------------------------------------------------------------
+85403,61,[Actualización] | Se modifica la capacidad de BBP0053 a 3.6 kWH,[Actualización] | Se modifica la capacidad de
+BBP0053 a 3.6 kVAh
+CORREGIDO>>>[Actualización] | Se modifica la capacidad de BBP0053 a 3.6 kVAh
+-------------------------------------------------------------------------------------------------------
+77290,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | CPAP,[Calculo] Se requiere instalar un equipo de
+1 kVA y 3.6 kVAh | CPAP
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | CPAP
+-------------------------------------------------------------------------------------------------------
+77567,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | HELADERA COVID,[Calculo] Se requiere instalar un
+equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+-------------------------------------------------------------------------------------------------------
+88436,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | BPAP, Colchon antiescaras,[Calculo] Se requiere
+instalar un equipo de 1 kVA y 3.6 kVAh | BPAP, Colchon antiescaras
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | BPAP, Colchon antiescaras
+-------------------------------------------------------------------------------------------------------
+74211,55,[Calculo] Se requiere instalar un equipo de 1 kVA y 6 kWH | Asistencia respiratoria mecanica, Concentrador de
+oxigeno, Nebulizador,[Calculo] Se requiere instalar un equipo de 1 kVA y 6 kVAh | Asistencia respiratoria mecanica,
+Concentrador de oxigeno, Nebulizador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 6 kVAh | Asistencia respiratoria mecanica, Concentrador
+de oxigeno, Nebulizador
+-------------------------------------------------------------------------------------------------------
+80623,59,[Actualización] | Se modifica la capacidad de BBP0034 a 6 kWH,[Actualización] | Se modifica la capacidad de
+BBP0034 a 6 kVAh
+CORREGIDO>>>[Actualización] | Se modifica la capacidad de BBP0034 a 6 kVAh
+-------------------------------------------------------------------------------------------------------
+74190,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | Aspirador de secreciones, Concentrador de
+oxigeno, Respirador, Saturador,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Aspirador de secreciones,
+Concentrador de oxigeno, Respirador, Saturador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Aspirador de secreciones, Concentrador de
+oxigeno, Respirador, Saturador
+-------------------------------------------------------------------------------------------------------
+77648,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | HELADERA COVID,[Calculo] Se requiere instalar un
+equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+-------------------------------------------------------------------------------------------------------
+74329,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | CPAP, Concentrador de oxigeno,
+Nebulizador,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | CPAP, Concentrador de oxigeno, Nebulizador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | CPAP, Concentrador de oxigeno, Nebulizador
+-------------------------------------------------------------------------------------------------------
+75598,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | Aspirador de secreciones, BPAP, CPAP, Cama
+electrica motorizada, Respirador,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Aspirador de
+secreciones, BPAP, CPAP, Cama electrica motorizada, Respirador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Aspirador de secreciones, BPAP, CPAP, Cama
+electrica motorizada, Respirador
+-------------------------------------------------------------------------------------------------------
+75609,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | Concentrador de oxigeno,[Calculo] Se requiere
+instalar un equipo de 3 kVA y 4.8 kVAh | Concentrador de oxigeno
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | Concentrador de oxigeno
+-------------------------------------------------------------------------------------------------------
+74118,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | CPAP,[Calculo] Se requiere instalar un equipo de
+1 kVA y 3.6 kVAh | CPAP
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | CPAP
+-------------------------------------------------------------------------------------------------------
+80901,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | Asistencia respiratoria mecanica, Aspirador de
+secreciones, Bomba de alimentacion, Bomba infusion, Colchon antiescaras, Concentrador de oxigeno, Saturador,[Calculo] Se
+requiere instalar un equipo de 1 kVA y 3.6 kVAh | Asistencia respiratoria mecanica, Aspirador de secreciones, Bomba de
+alimentacion, Bomba infusion, Colchon antiescaras, Concentrador de oxigeno, Saturador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Asistencia respiratoria mecanica, Aspirador
+de secreciones, Bomba de alimentacion, Bomba infusion, Colchon antiescaras, Concentrador de oxigeno, Saturador
+-------------------------------------------------------------------------------------------------------
+85419,61,[Actualización] | Se modifica la capacidad de BBP0158 a 3.6 kWH,[Actualización] | Se modifica la capacidad de
+BBP0158 a 3.6 kVAh
+CORREGIDO>>>[Actualización] | Se modifica la capacidad de BBP0158 a 3.6 kVAh
+-------------------------------------------------------------------------------------------------------
+85404,59,[Actualización] | Se modifica la capacidad de BBP0164 a 6 kWH,[Actualización] | Se modifica la capacidad de
+BBP0164 a 6 kVAh
+CORREGIDO>>>[Actualización] | Se modifica la capacidad de BBP0164 a 6 kVAh
+-------------------------------------------------------------------------------------------------------
+77656,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | HELADERA COVID,[Calculo] Se requiere instalar un
+equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+-------------------------------------------------------------------------------------------------------
+89117,55,[Calculo] Se requiere instalar un equipo de 1 kVA y 6 kWH | Aspirador de secreciones, Bomba de alimentacion,
+Concentrador de oxigeno, Saturador,[Calculo] Se requiere instalar un equipo de 1 kVA y 6 kVAh | Aspirador de
+secreciones, Bomba de alimentacion, Concentrador de oxigeno, Saturador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 6 kVAh | Aspirador de secreciones, Bomba de
+alimentacion, Concentrador de oxigeno, Saturador
+-------------------------------------------------------------------------------------------------------
+76843,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | Asistencia respiratoria mecanica, Aspirador de
+secreciones, Bomba infusion, Concentrador de oxigeno, Nebulizador,[Calculo] Se requiere instalar un equipo de 1 kVA y
+3.6 kVAh | Asistencia respiratoria mecanica, Aspirador de secreciones, Bomba infusion, Concentrador de oxigeno,
+Nebulizador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Asistencia respiratoria mecanica, Aspirador
+de secreciones, Bomba infusion, Concentrador de oxigeno, Nebulizador
+-------------------------------------------------------------------------------------------------------
+77652,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | HELADERA COVID,[Calculo] Se requiere instalar un
+equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+-------------------------------------------------------------------------------------------------------
+77660,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | HELADERA COVID,[Calculo] Se requiere instalar un
+equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+-------------------------------------------------------------------------------------------------------
+78439,61,[Actualización] | Se modifica la capacidad de BBP0166 a 3.6 kWH,[Actualización] | Se modifica la capacidad de
+BBP0166 a 3.6 kVAh
+CORREGIDO>>>[Actualización] | Se modifica la capacidad de BBP0166 a 3.6 kVAh
+-------------------------------------------------------------------------------------------------------
+74449,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | Concentrador de oxigeno, Nebulizador,[Calculo] Se
+requiere instalar un equipo de 1 kVA y 3.6 kVAh | Concentrador de oxigeno, Nebulizador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Concentrador de oxigeno, Nebulizador
+-------------------------------------------------------------------------------------------------------
+74573,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | Aspirador de secreciones, BPAP, Concentrador de
+oxigeno, Saturador,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Aspirador de secreciones, BPAP,
+Concentrador de oxigeno, Saturador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Aspirador de secreciones, BPAP, Concentrador
+de oxigeno, Saturador
+-------------------------------------------------------------------------------------------------------
+77005,60,[Actualización] | Se modifica la capacidad de BBP0048 a 12 kWH,[Actualización] | Se modifica la capacidad de
+BBP0048 a 12 kVAh
+CORREGIDO>>>[Actualización] | Se modifica la capacidad de BBP0048 a 12 kVAh
+-------------------------------------------------------------------------------------------------------
+77313,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 7.2 kWH | Aspirador de secreciones, Colchon antiescaras,
+Concentrador de oxigeno, Humidificador, Respirador, Saturador,[Calculo] Se requiere instalar un equipo de 3 kVA y 7.2
+kVAh | Aspirador de secreciones, Colchon antiescaras, Concentrador de oxigeno, Humidificador, Respirador, Saturador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 7.2 kVAh | Aspirador de secreciones, Colchon
+antiescaras, Concentrador de oxigeno, Humidificador, Respirador, Saturador
+-------------------------------------------------------------------------------------------------------
+76954,61,[Actualización] | Se modifica la capacidad de BBP0025 a 9.6 kWH,[Actualización] | Se modifica la capacidad de
+BBP0025 a 9.6 kVAh
+CORREGIDO>>>[Actualización] | Se modifica la capacidad de BBP0025 a 9.6 kVAh
+-------------------------------------------------------------------------------------------------------
+77620,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | HELADERA COVID,[Calculo] Se requiere instalar un
+equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+-------------------------------------------------------------------------------------------------------
+74331,61,[Nueva orden] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | CPAP, Concentrador de oxigeno,
+Nebulizador,[Nueva orden] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | CPAP, Concentrador de oxigeno,
+Nebulizador
+CORREGIDO>>>[Nueva orden] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | CPAP, Concentrador de oxigeno,
+Nebulizador
+-------------------------------------------------------------------------------------------------------
+74349,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | Concentrador de oxigeno, Nebulizador,[Calculo] Se
+requiere instalar un equipo de 1 kVA y 3.6 kVAh | Concentrador de oxigeno, Nebulizador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Concentrador de oxigeno, Nebulizador
+-------------------------------------------------------------------------------------------------------
+77035,61,[Actualización] | Se modifica la capacidad de BBP0049 a 9.6 kWH,[Actualización] | Se modifica la capacidad de
+BBP0049 a 9.6 kVAh
+CORREGIDO>>>[Actualización] | Se modifica la capacidad de BBP0049 a 9.6 kVAh
+-------------------------------------------------------------------------------------------------------
+74311,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | CPAP, Concentrador de oxigeno,
+Nebulizador,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | CPAP, Concentrador de oxigeno, Nebulizador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | CPAP, Concentrador de oxigeno, Nebulizador
+-------------------------------------------------------------------------------------------------------
+74214,56,[Actualización] | Se modifica la capacidad de null a 6 kWH,[Actualización] | Se modifica la capacidad de null a
+6 kVAh
+CORREGIDO>>>[Actualización] | Se modifica la capacidad de null a 6 kVAh
+-------------------------------------------------------------------------------------------------------
+74602,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | Aspirador de secreciones, Bomba infusion, CPAP,
+Saturador,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Aspirador de secreciones, Bomba infusion, CPAP,
+Saturador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Aspirador de secreciones, Bomba infusion,
+CPAP, Saturador
+-------------------------------------------------------------------------------------------------------
+77289,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | CPAP,[Calculo] Se requiere instalar un equipo de
+1 kVA y 3.6 kVAh | CPAP
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | CPAP
+-------------------------------------------------------------------------------------------------------
+77297,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | BPAP, CPAP,[Calculo] Se requiere instalar un
+equipo de 1 kVA y 3.6 kVAh | BPAP, CPAP
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | BPAP, CPAP
+-------------------------------------------------------------------------------------------------------
+77624,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | HELADERA COVID,[Calculo] Se requiere instalar un
+equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+-------------------------------------------------------------------------------------------------------
+77633,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | HELADERA COVID,[Calculo] Se requiere instalar un
+equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+-------------------------------------------------------------------------------------------------------
+77330,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | HELADERA COVID,[Calculo] Se requiere instalar un
+equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+-------------------------------------------------------------------------------------------------------
+74577,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | Aspirador de secreciones, BPAP, Bomba de
+alimentacion, Concentrador de oxigeno, Humidificador, Respirador, Saturador,[Calculo] Se requiere instalar un equipo de
+3 kVA y 4.8 kVAh | Aspirador de secreciones, BPAP, Bomba de alimentacion, Concentrador de oxigeno, Humidificador,
+Respirador, Saturador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | Aspirador de secreciones, BPAP, Bomba de
+alimentacion, Concentrador de oxigeno, Humidificador, Respirador, Saturador
+-------------------------------------------------------------------------------------------------------
+89509,56,[Calculo] Se requiere instalar un equipo de 3 kVA y 12 kWH | Acondicionador de aire,[Calculo] Se requiere
+instalar un equipo de 3 kVA y 12 kVAh | Acondicionador de aire
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 12 kVAh | Acondicionador de aire
+-------------------------------------------------------------------------------------------------------
+76776,56,[Calculo] Se requiere instalar un equipo de 3 kVA y 12 kWH | BPAP,[Calculo] Se requiere instalar un equipo de 3
+kVA y 12 kVAh | BPAP
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 12 kVAh | BPAP
+-------------------------------------------------------------------------------------------------------
+104353,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | Concentrador de oxigeno,[Calculo] Se requiere
+instalar un equipo de 3 kVA y 4.8 kVAh | Concentrador de oxigeno
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | Concentrador de oxigeno
+-------------------------------------------------------------------------------------------------------
+91215,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | Aspirador de secreciones, Concentrador de
+oxigeno, Nebulizador, Saturador,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Aspirador de secreciones,
+Concentrador de oxigeno, Nebulizador, Saturador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Aspirador de secreciones, Concentrador de
+oxigeno, Nebulizador, Saturador
+-------------------------------------------------------------------------------------------------------
+96851,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | Aspirador de secreciones, BPAP, Bomba de
+alimentacion, Saturador,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | Aspirador de secreciones, BPAP,
+Bomba de alimentacion, Saturador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | Aspirador de secreciones, BPAP, Bomba de
+alimentacion, Saturador
+-------------------------------------------------------------------------------------------------------
+103945,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | Concentrador de oxigeno,[Calculo] Se requiere
+instalar un equipo de 1 kVA y 3.6 kVAh | Concentrador de oxigeno
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Concentrador de oxigeno
+-------------------------------------------------------------------------------------------------------
+101092,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | Asistencia respiratoria mecanica, Aspirador de
+secreciones, Concentrador de oxigeno, Respirador,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh |
+Asistencia respiratoria mecanica, Aspirador de secreciones, Concentrador de oxigeno, Respirador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | Asistencia respiratoria mecanica, Aspirador
+de secreciones, Concentrador de oxigeno, Respirador
+-------------------------------------------------------------------------------------------------------
+82938,56,[Actualización] | Se modifica la capacidad de null a 6 kWH,[Actualización] | Se modifica la capacidad de null a
+6 kVAh
+CORREGIDO>>>[Actualización] | Se modifica la capacidad de null a 6 kVAh
+-------------------------------------------------------------------------------------------------------
+92298,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | CPAP,[Calculo] Se requiere instalar un equipo de
+1 kVA y 3.6 kVAh | CPAP
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | CPAP
+-------------------------------------------------------------------------------------------------------
+105831,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | Aspirador de secreciones, Bomba de alimentacion,
+Concentrador de oxigeno, Respirador, Saturador,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | Aspirador
+de secreciones, Bomba de alimentacion, Concentrador de oxigeno, Respirador, Saturador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | Aspirador de secreciones, Bomba de
+alimentacion, Concentrador de oxigeno, Respirador, Saturador
+-------------------------------------------------------------------------------------------------------
+104426,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | Aspirador de secreciones, Bomba de alimentacion,
+Concentrador de oxigeno, Saturador,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | Aspirador de
+secreciones, Bomba de alimentacion, Concentrador de oxigeno, Saturador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | Aspirador de secreciones, Bomba de
+alimentacion, Concentrador de oxigeno, Saturador
+-------------------------------------------------------------------------------------------------------
+89143,55,[Calculo] Se requiere instalar un equipo de 1 kVA y 6 kWH | Aspirador de secreciones, Concentrador de oxigeno,
+Respirador,[Calculo] Se requiere instalar un equipo de 1 kVA y 6 kVAh | Aspirador de secreciones, Concentrador de
+oxigeno, Respirador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 6 kVAh | Aspirador de secreciones, Concentrador de
+oxigeno, Respirador
+-------------------------------------------------------------------------------------------------------
+107463,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | Concentrador de oxigeno,[Calculo] Se requiere
+instalar un equipo de 3 kVA y 4.8 kVAh | Concentrador de oxigeno
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | Concentrador de oxigeno
+-------------------------------------------------------------------------------------------------------
+99104,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | Concentrador de oxigeno,[Calculo] Se requiere
+instalar un equipo de 1 kVA y 3.6 kVAh | Concentrador de oxigeno
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Concentrador de oxigeno
+-------------------------------------------------------------------------------------------------------
+92646,55,[Calculo] Se requiere instalar un equipo de 3 kVA y 6 kWH | Aspirador de secreciones, Bomba de alimentacion,
+CPAP, Humidificador, Respirador,[Calculo] Se requiere instalar un equipo de 3 kVA y 6 kVAh | Aspirador de secreciones,
+Bomba de alimentacion, CPAP, Humidificador, Respirador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 6 kVAh | Aspirador de secreciones, Bomba de
+alimentacion, CPAP, Humidificador, Respirador
+-------------------------------------------------------------------------------------------------------
+109731,55,[Calculo] Se requiere instalar un equipo de 1 kVA y 2 kWH | BPAP, CPAP, Respirador,[Calculo] Se requiere
+instalar un equipo de 1 kVA y 2 kVAh | BPAP, CPAP, Respirador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 2 kVAh | BPAP, CPAP, Respirador
+-------------------------------------------------------------------------------------------------------
+94693,56,[Calculo] Se requiere instalar un equipo de 3 kVA y 12 kWH | Acondicionador de aire, Aspirador de secreciones,
+Bomba de alimentacion, Concentrador de oxigeno, Humidificador, Respirador, Saturador,[Calculo] Se requiere instalar un
+equipo de 3 kVA y 12 kVAh | Acondicionador de aire, Aspirador de secreciones, Bomba de alimentacion, Concentrador de
+oxigeno, Humidificador, Respirador, Saturador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 12 kVAh | Acondicionador de aire, Aspirador de
+secreciones, Bomba de alimentacion, Concentrador de oxigeno, Humidificador, Respirador, Saturador
+-------------------------------------------------------------------------------------------------------
+105461,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | Concentrador de oxigeno,[Calculo] Se requiere
+instalar un equipo de 3 kVA y 4.8 kVAh | Concentrador de oxigeno
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | Concentrador de oxigeno
+-------------------------------------------------------------------------------------------------------
+90073,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | HELADERA COVID,[Calculo] Se requiere instalar un
+equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | HELADERA COVID
+-------------------------------------------------------------------------------------------------------
+108452,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | Aspirador de secreciones, Bomba de alimentacion,
+Colchon antiescaras, Concentrador de oxigeno, Saturador,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh |
+Aspirador de secreciones, Bomba de alimentacion, Colchon antiescaras, Concentrador de oxigeno, Saturador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Aspirador de secreciones, Bomba de
+alimentacion, Colchon antiescaras, Concentrador de oxigeno, Saturador
+-------------------------------------------------------------------------------------------------------
+91216,61,[Nueva orden] Se requiere instalar un equipo de 1 kVA y 3.6 kWH,[Nueva orden] Se requiere instalar un equipo de
+1 kVA y 3.6 kVAh
+CORREGIDO>>>[Nueva orden] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh
+-------------------------------------------------------------------------------------------------------
+107282,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | Concentrador de oxigeno,[Calculo] Se requiere
+instalar un equipo de 3 kVA y 4.8 kVAh | Concentrador de oxigeno
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | Concentrador de oxigeno
+-------------------------------------------------------------------------------------------------------
+106166,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | Concentrador de oxigeno,[Calculo] Se requiere
+instalar un equipo de 3 kVA y 4.8 kVAh | Concentrador de oxigeno
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | Concentrador de oxigeno
+-------------------------------------------------------------------------------------------------------
+102966,55,[Calculo] Se requiere instalar un equipo de 1 kVA y 6 kWH | Aspirador de secreciones, Bomba de alimentacion,
+Concentrador de oxigeno, Respirador, Saturador,[Calculo] Se requiere instalar un equipo de 1 kVA y 6 kVAh | Aspirador de
+secreciones, Bomba de alimentacion, Concentrador de oxigeno, Respirador, Saturador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 6 kVAh | Aspirador de secreciones, Bomba de
+alimentacion, Concentrador de oxigeno, Respirador, Saturador
+-------------------------------------------------------------------------------------------------------
+103773,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | Concentrador de oxigeno, Aspirador de
+secreciones, Bomba infusion,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Concentrador de oxigeno,
+Aspirador de secreciones, Bomba infusion
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Concentrador de oxigeno, Aspirador de
+secreciones, Bomba infusion
+-------------------------------------------------------------------------------------------------------
+105025,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | Concentrador de oxigeno,[Calculo] Se requiere
+instalar un equipo de 3 kVA y 4.8 kVAh | Concentrador de oxigeno
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | Concentrador de oxigeno
+-------------------------------------------------------------------------------------------------------
+102537,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | Concentrador de oxigeno,[Calculo] Se requiere
+instalar un equipo de 1 kVA y 3.6 kVAh | Concentrador de oxigeno
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Concentrador de oxigeno
+-------------------------------------------------------------------------------------------------------
+109058,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | Concentrador de oxigeno,[Calculo] Se requiere
+instalar un equipo de 1 kVA y 3.6 kVAh | Concentrador de oxigeno
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Concentrador de oxigeno
+-------------------------------------------------------------------------------------------------------
+106671,57,[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kWH | BPAP, Concentrador de oxigeno,[Calculo] Se
+requiere instalar un equipo de 3 kVA y 4.8 kVAh | BPAP, Concentrador de oxigeno
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 3 kVA y 4.8 kVAh | BPAP, Concentrador de oxigeno
+-------------------------------------------------------------------------------------------------------
+102194,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | Concentrador de oxigeno,[Calculo] Se requiere
+instalar un equipo de 1 kVA y 3.6 kVAh | Concentrador de oxigeno
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Concentrador de oxigeno
+-------------------------------------------------------------------------------------------------------
+109952,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | Concentrador de oxigeno,[Calculo] Se requiere
+instalar un equipo de 1 kVA y 3.6 kVAh | Concentrador de oxigeno
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Concentrador de oxigeno
+-------------------------------------------------------------------------------------------------------
+107809,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | Aspirador de secreciones, Concentrador de
+oxigeno, Respirador, Saturador,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Aspirador de secreciones,
+Concentrador de oxigeno, Respirador, Saturador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Aspirador de secreciones, Concentrador de
+oxigeno, Respirador, Saturador
+-------------------------------------------------------------------------------------------------------
+107810,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | Aspirador de secreciones, Concentrador de
+oxigeno, Respirador, Saturador,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Aspirador de secreciones,
+Concentrador de oxigeno, Respirador, Saturador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Aspirador de secreciones, Concentrador de
+oxigeno, Respirador, Saturador
+-------------------------------------------------------------------------------------------------------
+106940,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | Concentrador de oxigeno,[Calculo] Se requiere
+instalar un equipo de 1 kVA y 3.6 kVAh | Concentrador de oxigeno
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Concentrador de oxigeno
+-------------------------------------------------------------------------------------------------------
+102958,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | Respirador,[Calculo] Se requiere instalar un
+equipo de 1 kVA y 3.6 kVAh | Respirador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Respirador
+-------------------------------------------------------------------------------------------------------
+108451,57,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kWH | Aspirador de secreciones, Bomba de alimentacion,
+Colchon antiescaras, Concentrador de oxigeno, Saturador,[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh |
+Aspirador de secreciones, Bomba de alimentacion, Colchon antiescaras, Concentrador de oxigeno, Saturador
+CORREGIDO>>>[Calculo] Se requiere instalar un equipo de 1 kVA y 3.6 kVAh | Aspirador de secreciones, Bomba de
+alimentacion, Colchon antiescaras, Concentrador de oxigeno, Saturador
+-------------------------------------------------------------------------------------------------------
+
+
+    * 03/10/22 13:57:07 - Fin Ejecucion proceso ............... 
+
