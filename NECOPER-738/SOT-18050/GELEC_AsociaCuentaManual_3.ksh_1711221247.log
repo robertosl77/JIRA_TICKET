@@ -1,0 +1,24 @@
+
+
+   ______________________________________________________________________________________________________________
+
+                     EJECUCION DE PROCESO - DATE: 17/11/22 12:47:58 - DATABASE: GISPR02
+                                               SCRIPT EJECUTADO: /stage/gis/imple/procesos/TMT/trans/TPR/batch/GELEC_AsociaCuentaManual_3.ksh
+
+   ______________________________________________________________________________________________________________
+
+    * 17/11/22 12:47:58 - Iniciando ejecucion ............... 
+
+
+
+    * 17/11/22 12:47:58 - Detalle Ejecucion proceso ............... 
+
+v_Resultado con estado inicial:
+recorre cursor para insertar cliente
+v_Resultado: OK
+pregunta si v-resultado es Ok
+v_Resultado: OK
+
+
+    * 17/11/22 12:47:58 - Fin Ejecucion proceso ............... 
+

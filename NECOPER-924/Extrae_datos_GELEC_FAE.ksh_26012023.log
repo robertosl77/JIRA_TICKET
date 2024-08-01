@@ -1,0 +1,32 @@
+
+
+   ______________________________________________________________________________________________________________
+
+                     EJECUCION DE PROCESO - DATE: 26/01/23 09:58:36 - DATABASE: GISQA01S
+                                               SCRIPT EJECUTADO: /usr/TMT/trans/GISQA/batch/Extrae_datos_GELEC_FAE.ksh
+
+   ______________________________________________________________________________________________________________
+
+    * 26/01/23 09:58:36 - Iniciando ejecucion ............... 
+
+
+
+    * 26/01/23 09:58:36 - Detalle Ejecucion proceso ............... 
+
+			  gelec.ed_estado_ordenes eo,
+			        *
+ERROR at line 33:
+ORA-06550: line 33, column 12:
+PL/SQL: ORA-00942: table or view does not exist
+ORA-06550: line 4, column 3:
+PL/SQL: SQL Statement ignored
+ORA-06550: line 56, column 6:
+PLS-00364: loop index variable 'FAE' use is invalid
+ORA-06550: line 55, column 5:
+PL/SQL: Statement ignored
+
+
+
+
+    * 26/01/23 09:58:36 - Fin Ejecucion proceso ............... 
+

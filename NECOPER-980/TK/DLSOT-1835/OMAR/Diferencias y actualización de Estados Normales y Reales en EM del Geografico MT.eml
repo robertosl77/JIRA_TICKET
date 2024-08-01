@@ -1,0 +1,268 @@
+Received: from CH0PR08MB6876.namprd08.prod.outlook.com (2603:10b6:610:c0::19)
+ by PH0PR08MB7034.namprd08.prod.outlook.com with HTTPS; Wed, 15 Feb 2023
+ 14:23:57 +0000
+Received: from PH0PR08MB7034.namprd08.prod.outlook.com (2603:10b6:510:97::10)
+ by CH0PR08MB6876.namprd08.prod.outlook.com (2603:10b6:610:c0::19) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6086.24; Wed, 15 Feb
+ 2023 14:23:54 +0000
+Received: from PH0PR08MB7034.namprd08.prod.outlook.com
+ ([fe80::b227:d9e5:dd81:57eb]) by PH0PR08MB7034.namprd08.prod.outlook.com
+ ([fe80::b227:d9e5:dd81:57eb%8]) with mapi id 15.20.6086.026; Wed, 15 Feb 2023
+ 14:23:54 +0000
+From: Roberto SANCHEZ LEIVA <rsleiva@edenor.com>
+To: ITSM_Desarrollos_propios <ITSM_Desarrollos_propios@edenor.com>
+Subject:
+	=?iso-8859-1?Q?Diferencias_y_actualizaci=F3n_de_Estados_Normales_y_Reales?=
+ =?iso-8859-1?Q?_en_EM_del_Geografico_MT?=
+Thread-Topic:
+	=?iso-8859-1?Q?Diferencias_y_actualizaci=F3n_de_Estados_Normales_y_Reales?=
+ =?iso-8859-1?Q?_en_EM_del_Geografico_MT?=
+Thread-Index: AQHZQUa1aW9QanOZvkigqRUOy02Afg==
+Date: Wed, 15 Feb 2023 14:23:53 +0000
+Message-ID:
+	<PH0PR08MB7034C7CF7F2E8DA1A8D25AE7D4A39@PH0PR08MB7034.namprd08.prod.outlook.com>
+Accept-Language: es-AR, en-US
+Content-Language: es-AR
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: PH0PR08MB7034.namprd08.prod.outlook.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: DR, OOF, AutoReply
+X-MS-Exchange-Organization-Network-Message-Id:
+	23183afc-e5c2-4886-2b50-08db0f604439
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+msip_labels:
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=edenor.com;
+x-microsoft-antispam: BCL:0;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:es;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:PH0PR08MB7034.namprd08.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-originalarrivaltime: 15 Feb 2023 14:23:53.8306 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: 521e430f-ba3c-4d47-9f97-16b945b0a850
+x-ms-exchange-transport-crosstenantheadersstamped: CH0PR08MB6876
+x-ms-office365-filtering-correlation-id: 23183afc-e5c2-4886-2b50-08db0f604439
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: PH0PR08MB7034:EE_|CH0PR08MB6876:EE_
+x-ms-exchange-crosstenant-network-message-id:
+	23183afc-e5c2-4886-2b50-08db0f604439
+x-ms-exchange-transport-endtoendlatency: 00:00:03.9073969
+x-ms-exchange-processed-by-bccfoldering: 15.20.6086.026
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	EkwpsRTV2zFHpJFK0IcW6lPItCfAgM3WBfEvOYNL7L397rqQJFvjuwCc2hz+07O6u/SRumai8pMdygWDK3D7SQ==
+x-ms-exchange-crosstenant-authsource: PH0PR08MB7034.namprd08.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	rwl:1;ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506478)(944626604)(920097)(815096)(250001)(410001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	=?iso-8859-1?Q?yAVAqbXJopVpqBloz4Tf8cGCT5hvf/liVZPNzcAj74UHwnX7ZphCdRhEkO?=
+ =?iso-8859-1?Q?XZzS0ed20YamECl8g4S64OES5BmPGD7Q13dgJYnGXCVloZTZjGIZ30bPZ0?=
+ =?iso-8859-1?Q?/ZGUFY3FgOJ+2aIQ73vcfFKPNSiQmFGxjfBZLFAs8ybgzWO3eQgxZElQK4?=
+ =?iso-8859-1?Q?pzk3mV9FGX3vjBNsBe//RrBDnWl+ErPCCir0cRlkE1AcVdl2wg6cdKajIr?=
+ =?iso-8859-1?Q?fBFFduAx1u/NH/vaST+5hVUunC2S55Kx6VSocDeHtAQPQ8OH4nsh66Gcaz?=
+ =?iso-8859-1?Q?4MEr7Dblgti45/Uof7IKFTM7/9FAnqSZbCeNc9sFU+Rg/PDnHD+j7KjmD8?=
+ =?iso-8859-1?Q?xiaBKu18nA4ZyVT3uGkfqVpcNIrsN8RTRZoewYNHyzKjUj9g88NeeQ/9KR?=
+ =?iso-8859-1?Q?FvQVyFj6CsbqTcHlMxaCSYeY/qAx39Gz79HTbxCCR6RzEigEveD+V+glc/?=
+ =?iso-8859-1?Q?a/3pE37//DHBEjXhi23RiONhzxYtsTRC57vYGcdBESauG0WubDoQpqKuA9?=
+ =?iso-8859-1?Q?9iRHdXfXirt4dwIWAXtFHiS/zPMY8nGSuUB9MJzET/bgGFGW5hLjN57SMu?=
+ =?iso-8859-1?Q?F9UmvglwyGJJDH5Qc+xXpVpUe2XUK4uVR5qmVtrTv/6ltaQuFpestI664r?=
+ =?iso-8859-1?Q?Xnwx+1Q+wdiXLZ5TruDuZaWd38DXOfM0pHpBj6WpgZybtqfCihxkVXEq2V?=
+ =?iso-8859-1?Q?0z+X1usVOCWv/2OZnQA6R8KDtlkcsMFbv5fQpSoyzAO2jpFWkDhNNMUt/e?=
+ =?iso-8859-1?Q?KAl8rSy0NLO0GKSgHwuq1SRIUJOPE8GCzfRVTLMUL/ZliB10+tb9UxkCqK?=
+ =?iso-8859-1?Q?SIZvmhP8CHB3rvgGn4VKZBOXXO+IbgEoZS10lgekKfieh/rd2tSJK1M80z?=
+ =?iso-8859-1?Q?GTw/i9/igJmgb3ILTqY2x7sbSCkARZpnCTPsX2x1NjbDms7i9JxfB/LqOS?=
+ =?iso-8859-1?Q?pHDjRtp9w6Ma3eys/nKyijsxQdfQmbvtXY5T+YRiCkhmrpehtCV5R4LoOb?=
+ =?iso-8859-1?Q?HGXQa9fU++DytggX0=3D?=
+Content-Type: multipart/alternative;
+	boundary="_000_PH0PR08MB7034C7CF7F2E8DA1A8D25AE7D4A39PH0PR08MB7034namp_"
+MIME-Version: 1.0
+
+--_000_PH0PR08MB7034C7CF7F2E8DA1A8D25AE7D4A39PH0PR08MB7034namp_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Vanesa, buenos dias.
+
+Como te hab=EDa comentado hoy tuvimos la reuni=F3n con Omar, para que me ex=
+plique el an=E1lisis y la soluci=F3n que propon=EDa.
+Pero despu=E9s de debatir y seguir con dudas, tuvimos que reanalizar todo y=
+ entendiendo mejor, nos dimos cuenta de que en principio no estar=EDa mal e=
+l proceso que el propon=EDa cambiar.
+Quedamos en stand by hasta que Omar nos avise nuevamente sus avances.
+
+A continuaci=F3n, detallo resumidamente la estructura analizada y una nota =
+final del por qu=E9 se debe reanalizar la soluci=F3n.
+
+
+  *   Inicia en el ksh: Carga_estados_EM_Uni_Geo.ksh
+  *   Crea el CURSOR cur_em_uni
+  *   Dentro de este cursor, filtra el resultado de una funcion aquellos qu=
+e no sean nulos
+     *   filro: AND Edenor_Cartografia.EM_VALID_CODE(a.linkvalue) is not nu=
+ll
+     *   package: Edenor_Cartografia
+     *   procedure: EM_VALID_CODE
+     *   parametro: linkvalue
+  *   El procedimiento realiza los siguientes pasos:
+     *   cuenta cuantos guiones tiene la palabra recibida
+     *   si tiene un guion (ej aaa-bbb) extrae lo que esta a la izquierda d=
+el guion, inclusive =E9ste (ej bbb)
+     *   si tiene tres guiones (ej aaa-bbb-ccc-ddd) extrae los dos primeros=
+ guiones (ej ccc-ddd)
+     *   si no tiene guiones, si tiene 2 guiones o si tiene mas de 3 guione=
+s devuelve la misma cadena recibida.
+     *   IMPORTANTE: cabe aclarar que la =FAnica forma que devuelva un null=
+ es si recibe un null, pero previamente el select del cursor se limita a ca=
+denas con 1, 3 o ning=FAn guion, as=ED que t=E9cnicamente este procedimient=
+o nunca devuelve un null por lo que el filtro no tiene sentido como est=E1 =
+siendo usado.
+
+
+sdos
+Roberto
+
+
+
+--_000_PH0PR08MB7034C7CF7F2E8DA1A8D25AE7D4A39PH0PR08MB7034namp_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div style=3D"font-family: Calibri, Arial, Helvetica, sans-serif; font-size=
+: 12pt; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);" class=
+=3D"elementToProof ContentPasted0">
+Vanesa, buenos dias.</div>
+<div style=3D"font-family: Calibri, Arial, Helvetica, sans-serif; font-size=
+: 12pt; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);" class=
+=3D"elementToProof ContentPasted0">
+<br>
+</div>
+<div style=3D"font-family: Calibri, Arial, Helvetica, sans-serif; font-size=
+: 12pt; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);" class=
+=3D"elementToProof ContentPasted0">
+Como te hab=EDa comentado hoy tuvimos la reuni=F3n con Omar, para que me ex=
+plique el an=E1lisis y la soluci=F3n que propon=EDa.&nbsp;</div>
+<div style=3D"font-family: Calibri, Arial, Helvetica, sans-serif; font-size=
+: 12pt; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);" class=
+=3D"elementToProof ContentPasted0">
+Pero despu=E9s de debatir y seguir con dudas, tuvimos que reanalizar todo y=
+ entendiendo mejor, nos dimos cuenta de que en principio no estar=EDa mal e=
+l proceso que el propon=EDa cambiar.</div>
+<div style=3D"font-family: Calibri, Arial, Helvetica, sans-serif; font-size=
+: 12pt; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);" class=
+=3D"elementToProof ContentPasted0">
+Quedamos en stand by hasta que Omar nos avise nuevamente sus avances.&nbsp;=
+</div>
+<div style=3D"font-family: Calibri, Arial, Helvetica, sans-serif; font-size=
+: 12pt; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);" class=
+=3D"elementToProof ContentPasted0">
+<br>
+</div>
+<div style=3D"font-family: Calibri, Arial, Helvetica, sans-serif; font-size=
+: 12pt; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);" class=
+=3D"elementToProof ContentPasted0">
+A continuaci=F3n, detallo resumidamente la estructura analizada y una nota =
+final del por qu=E9 se debe reanalizar la soluci=F3n.&nbsp;</div>
+<div style=3D"font-family: Calibri, Arial, Helvetica, sans-serif; font-size=
+: 12pt; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);" class=
+=3D"elementToProof ContentPasted0">
+<br>
+</div>
+<div style=3D"font-family: Calibri, Arial, Helvetica, sans-serif; font-size=
+: 12pt; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);" class=
+=3D"elementToProof ContentPasted0">
+<ul>
+<li>Inicia en el ksh: Carga_estados_EM_Uni_Geo.ksh</li><li>Crea el CURSOR c=
+ur_em_uni</li><li>Dentro de este cursor, filtra el resultado de una funcion=
+ aquellos que no sean nulos</li><ul style=3D"list-style-type: circle;">
+<li class=3D"ContentPasted1">filro:&nbsp;AND Edenor_Cartografia.EM_VALID_CO=
+DE(a.linkvalue) is not null</li><li class=3D"ContentPasted1" style=3D"color=
+: rgb(0, 0, 0); background-color: rgb(255, 255, 255);">
+package:&nbsp;<span style=3D"color: rgb(0, 0, 0); background-color: rgb(255=
+, 255, 255); display: inline !important;" class=3D"ContentPasted2">Edenor_C=
+artografia</span></li><li class=3D"ContentPasted1" style=3D"color: rgb(0, 0=
+, 0); background-color: rgb(255, 255, 255);">
+<span style=3D"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); d=
+isplay: inline !important;" class=3D"ContentPasted2">procedure:&nbsp;<span =
+style=3D"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); display=
+: inline !important;" class=3D"ContentPasted3">EM_VALID_CODE</span></span><=
+/li><li class=3D"ContentPasted1" style=3D"color: rgb(0, 0, 0); background-c=
+olor: rgb(255, 255, 255);">
+<span style=3D"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); d=
+isplay: inline !important;" class=3D"ContentPasted2"><span style=3D"color: =
+rgb(0, 0, 0); background-color: rgb(255, 255, 255); display: inline !import=
+ant;" class=3D"ContentPasted3">parametro:
+ linkvalue</span></span></li></ul>
+<li class=3D"ContentPasted1" style=3D"color: rgb(0, 0, 0); background-color=
+: rgb(255, 255, 255);">
+<span style=3D"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); d=
+isplay: inline !important;" class=3D"ContentPasted2"><span style=3D"color: =
+rgb(0, 0, 0); background-color: rgb(255, 255, 255); display: inline !import=
+ant;" class=3D"ContentPasted3">El procedimiento
+ realiza los siguientes pasos:&nbsp;</span></span></li><ul style=3D"list-st=
+yle-type: circle;">
+<li class=3D"ContentPasted1" style=3D"color: rgb(0, 0, 0); background-color=
+: rgb(255, 255, 255);">
+<span style=3D"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); d=
+isplay: inline !important;" class=3D"ContentPasted2"><span style=3D"color: =
+rgb(0, 0, 0); background-color: rgb(255, 255, 255); display: inline !import=
+ant;" class=3D"ContentPasted3">cuenta cuantos
+ guiones tiene la palabra recibida</span></span></li><li class=3D"ContentPa=
+sted1" style=3D"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);"=
+>
+<span style=3D"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); d=
+isplay: inline !important;" class=3D"ContentPasted2"><span style=3D"color: =
+rgb(0, 0, 0); background-color: rgb(255, 255, 255); display: inline !import=
+ant;" class=3D"ContentPasted3">si tiene
+ un guion (ej aaa-bbb) extrae lo que esta a la izquierda del guion, inclusi=
+ve =E9ste (ej bbb)</span></span></li><li class=3D"ContentPasted1" style=3D"=
+color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);">
+<span style=3D"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); d=
+isplay: inline !important;" class=3D"ContentPasted2"><span style=3D"color: =
+rgb(0, 0, 0); background-color: rgb(255, 255, 255); display: inline !import=
+ant;" class=3D"ContentPasted3">si tiene
+ tres guiones (ej aaa-bbb-ccc-ddd) extrae los dos primeros guiones (ej ccc-=
+ddd)</span></span></li><li class=3D"ContentPasted1" style=3D"color: rgb(0, =
+0, 0); background-color: rgb(255, 255, 255);">
+<span style=3D"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); d=
+isplay: inline !important;" class=3D"ContentPasted2"><span style=3D"color: =
+rgb(0, 0, 0); background-color: rgb(255, 255, 255); display: inline !import=
+ant;" class=3D"ContentPasted3">si no tiene
+ guiones, si tiene 2 guiones o si tiene mas de 3 guiones devuelve la misma =
+cadena recibida.</span></span></li><li class=3D"ContentPasted1" style=3D"co=
+lor: rgb(0, 0, 0); background-color: rgb(255, 255, 0);">
+<span style=3D"background-color: rgb(255, 255, 0);">IMPORTANTE: cabe aclara=
+r que la =FAnica forma que devuelva un null es si recibe un null, pero prev=
+iamente el select del cursor se limita a cadenas con 1, 3 o ning=FAn guion,=
+ as=ED que t=E9cnicamente este procedimiento
+ nunca devuelve un null por lo que el filtro no tiene sentido como est=E1 s=
+iendo usado</span>.&nbsp;&nbsp;</li></ul>
+</ul>
+<div><br style=3D"color: rgb(0, 0, 0); background-color: rgb(255, 255, 0);"=
+>
+</div>
+<div><br style=3D"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255)=
+;">
+</div>
+<div>sdos</div>
+<div>Roberto</div>
+<div><br>
+</div>
+<div><br>
+</div>
+</div>
+</body>
+</html>
+
+--_000_PH0PR08MB7034C7CF7F2E8DA1A8D25AE7D4A39PH0PR08MB7034namp_--

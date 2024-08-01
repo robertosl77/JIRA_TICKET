@@ -1,0 +1,8 @@
+SQL> 	     insert into gelec.ed_contratistas (id, nombre, grupo, mail, telefono) values
+  2  		 (2, 'Empresa 2','CDD2', 'centro_de_diagnostico@edenor.com', null);
+        insert into gelec.ed_contratistas (id, nombre, grupo, mail, telefono) values
+                          *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+

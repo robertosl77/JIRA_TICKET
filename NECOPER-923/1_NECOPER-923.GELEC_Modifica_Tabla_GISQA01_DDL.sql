@@ -1,0 +1,1 @@
+alter table gelec.ed_contratistas modify mail varchar(100 char);
