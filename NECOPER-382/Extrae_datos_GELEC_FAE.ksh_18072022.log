@@ -1,0 +1,64 @@
+
+
+   ______________________________________________________________________________________________________________
+
+                     EJECUCION DE PROCESO - DATE: 18/07/22 02:00:02 - DATABASE: GISPR02
+                                               SCRIPT EJECUTADO: /stage/gis/imple/procesos/TMT/trans/TPR/batch/Extrae_datos_GELEC_FAE.ksh
+
+   ______________________________________________________________________________________________________________
+
+    * 18/07/22 02:00:02 - Iniciando ejecucion ............... 
+
+
+
+    * 18/07/22 02:00:04 - Detalle Ejecucion proceso ............... 
+
+			(select upper(trim(nombre||chr(32)||apellido)) from GELEC.ed_paciente_cliente where cuenta=fc.cuenta and rownum=1) paciente,
+			                                                          *
+ERROR at line 6:
+ORA-06550: línea 6, columna 62:
+PL/SQL: ORA-01031: privilegios insuficientes
+ORA-06550: línea 4, columna 3:
+PL/SQL: SQL Statement ignored
+ORA-06550: línea 51, columna 6:
+PLS-00364: loop index variable 'FAE' use is invalid
+ORA-06550: línea 50, columna 5:
+PL/SQL: Statement ignored
+
+
+
+
+    * 18/07/22 02:00:04 - Fin Ejecucion proceso ............... 
+
+
+
+   ______________________________________________________________________________________________________________
+
+                     EJECUCION DE PROCESO - DATE: 18/07/22 12:02:38 - DATABASE: GISPR02
+                                               SCRIPT EJECUTADO: /stage/gis/imple/procesos/TMT/trans/TPR/batch/Extrae_datos_GELEC_FAE.ksh
+
+   ______________________________________________________________________________________________________________
+
+    * 18/07/22 12:02:38 - Iniciando ejecucion ............... 
+
+
+
+    * 18/07/22 12:02:38 - Detalle Ejecucion proceso ............... 
+
+			(select upper(trim(nombre||chr(32)||apellido)) from GELEC.ed_paciente_cliente where cuenta=fc.cuenta and rownum=1) paciente,
+			                                                          *
+ERROR at line 6:
+ORA-06550: línea 6, columna 62:
+PL/SQL: ORA-01031: privilegios insuficientes
+ORA-06550: línea 4, columna 3:
+PL/SQL: SQL Statement ignored
+ORA-06550: línea 51, columna 6:
+PLS-00364: loop index variable 'FAE' use is invalid
+ORA-06550: línea 50, columna 5:
+PL/SQL: Statement ignored
+
+
+
+
+    * 18/07/22 12:02:38 - Fin Ejecucion proceso ............... 
+
