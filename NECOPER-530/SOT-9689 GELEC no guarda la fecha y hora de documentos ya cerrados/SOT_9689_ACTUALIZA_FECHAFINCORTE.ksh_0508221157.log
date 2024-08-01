@@ -1,0 +1,28 @@
+
+
+   ______________________________________________________________________________________________________________
+
+                     EJECUCION DE PROCESO - DATE: 05/08/22 11:57:24 - DATABASE: GISPR02
+                                               SCRIPT EJECUTADO: /stage/gis/imple/procesos/TMT/trans/TPR/batch/SOT_9689_ACTUALIZA_FECHAFINCORTE.ksh
+
+   ______________________________________________________________________________________________________________
+
+    * 05/08/22 11:57:24 - Iniciando ejecucion ............... 
+
+
+
+    * 05/08/22 11:57:24 - Detalle Ejecucion proceso ............... 
+
+	    UPDATE GELEC.ED_DET_DOCUMENTOS_CLIENTES SET FECHA_FIN_EDITABLE=F.FECHA_FIN_DOC WHERE ID_DOC_CLIENTE=F.ID_DOC_CLIENTE AND F_FECHA_FIN_DOC IS NOT NULL;
+                                                                                                                                     *
+ERROR at line 27:
+ORA-06550: línea 27, columna 134:
+PL/SQL: ORA-00904: "F_FECHA_FIN_DOC": identificador no válido
+ORA-06550: línea 27, columna 13:
+PL/SQL: SQL Statement ignored
+
+
+
+
+    * 05/08/22 11:57:24 - Fin Ejecucion proceso ............... 
+

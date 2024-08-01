@@ -1,0 +1,650 @@
+SQL> create or replace
+  2  PACKAGE		 GELEC.PKG_FAE AS
+  3  	 PROCEDURE a_fae_cliente (
+  4  	     p_cuenta	 IN    VARCHAR2,
+  5  	     p_usuario	 IN    VARCHAR2,
+  6  	     p_id	 OUT   NUMBER
+  7  	 );
+  8  
+  9  	 PROCEDURE m_fae_cliente (
+ 10  	     p_id_fae_cliente	IN    NUMBER,
+ 11  	     p_id_estado	IN    NUMBER,
+ 12  	     p_usuario		IN    VARCHAR2,
+ 13  	     p_respuesta	OUT   NUMBER
+ 14  	 );
+ 15  
+ 16  	 PROCEDURE asociarfaecliente (
+ 17  	     p_id_fae_cliente	IN    NUMBER,
+ 18  	     p_id_fae		IN    NUMBER,
+ 19  	     p_usuario		IN    VARCHAR2,
+ 20  	     p_respuesta	OUT   NUMBER
+ 21  	 );
+ 22  
+ 23  	 PROCEDURE a_orden (
+ 24  	     p_cuenta		IN    VARCHAR2,
+ 25  	     p_id_fae_cliente	IN    NUMBER,
+ 26  	     p_id_tipo		IN    NUMBER,
+ 27  	     p_id_responsable	IN    NUMBER,
+ 28  	     p_usuario		IN     VARCHAR2,
+ 29  	     p_nota		IN    VARCHAR2,
+ 30  	     p_fecha_inicio	IN    DATE,
+ 31  	     p_id		OUT   NUMBER
+ 32  	 );
+ 33  
+ 34  	 PROCEDURE m_orden (
+ 35  	     p_id_orden    IN	 NUMBER,
+ 36  	     p_id_estado   IN	 NUMBER,
+ 37  	     p_fecha_ini   IN	 DATE,
+ 38  	     p_fecha_fin   IN	 DATE,
+ 39  	     p_usuario	   IN	 VARCHAR2,
+ 40  	     p_respuesta   OUT	 NUMBER
+ 41  	 );
+ 42  
+ 43  	 PROCEDURE abonar_orden (
+ 44  	     p_id_orden    IN	 NUMBER,
+ 45  	     p_abono	   IN	 NUMBER,
+ 46  	     p_usuario	   IN	 VARCHAR2,
+ 47  	     p_fecha	   IN	 DATE,
+ 48  	     p_respuesta   OUT	 NUMBER
+ 49  	 );
+ 50  
+ 51  	 PROCEDURE a_equipo (
+ 52  	     p_usuario	   IN	 VARCHAR2,
+ 53  	     p_serie	   IN	 VARCHAR2,
+ 54  	     p_deposito    IN	 VARCHAR2,
+ 55  	     p_potencia    IN	 NUMBER,
+ 56  	     p_capacidad   IN	 FLOAT,
+ 57  	     p_ingreso	   IN	 DATE,
+ 58  	     p_id_modelo   IN	 NUMBER,
+ 59  	     p_respuesta   OUT	 NUMBER
+ 60  	 );
+ 61  
+ 62  	 PROCEDURE m_equipo_stock (
+ 63  	     p_usuario	   IN	 VARCHAR2,
+ 64  	     p_serie	   IN	 VARCHAR2,
+ 65  	     p_deposito    IN	 VARCHAR2,
+ 66  	     p_potencia    IN	 NUMBER,
+ 67  	     p_capacidad   IN	 FLOAT,
+ 68  	     p_ingreso	   IN	 DATE,
+ 69  	     p_id_modelo   IN	 NUMBER,
+ 70  	     p_idfae	   IN	 NUMBER,
+ 71  	     p_respuesta   OUT	 NUMBER
+ 72  	 );
+ 73  
+ 74  	 PROCEDURE m_equipo (
+ 75  	     p_id	   IN	 NUMBER,
+ 76  	     p_capacidad   IN	 FLOAT,
+ 77  	     p_usuario	   IN	 VARCHAR2,
+ 78  	     p_respuesta   OUT	 NUMBER
+ 79  	 );
+ 80  
+ 81  	     PROCEDURE ADMIN_MARCAS_FAE(
+ 82  	     p_id_fae_cliente	     IN    NUMBER,
+ 83  	     p_usuario			     IN    VARCHAR2,
+ 84  	     p_respuesta		     OUT   NUMBER
+ 85  	     );
+ 86  
+ 87  END;
+ 88  /
+
+Package created.
+
+Elapsed: 00:00:00.21
+SQL> 
+SQL> create or replace
+  2  PACKAGE BODY	GELEC.PKG_FAE AS
+  3  
+  4  	 PROCEDURE a_fae_cliente (
+  5  	     p_cuenta	 IN    VARCHAR2,
+  6  	     p_usuario	 IN    VARCHAR2,
+  7  	     p_id	 OUT   NUMBER
+  8  	 ) IS
+  9  	     PRAGMA autonomous_transaction;
+ 10  
+ 11  	   -- Agregar validaciones?
+ 12  	     v_log_id	NUMBER;
+ 13  	     v_id	NUMBER;
+ 14  	 BEGIN
+ 15  	     v_log_id := gelec.insert_log('Crea FAE_Cliente', p_usuario);
+ 16  	     v_id := gelec.seq_cliente_fae.nextval();
+ 17  	     INSERT INTO gelec.ed_fae_cliente fc (
+ 18  		 fc.cuenta,
+ 19  		 fc.id,
+ 20  		 fc.id_estado,
+ 21  		 fc.log_desde,
+ 22  		 fc.fecha
+ 23  	     )
+ 24  		VALUES (
+ 25  		 p_cuenta,
+ 26  		 v_id,
+ 27  		 1,
+ 28  		 v_log_id,
+ 29  		 SYSDATE);
+ 30  
+ 31  	     COMMIT;
+ 32  	     p_id := v_id;
+ 33  	 END;
+ 34  
+ 35  	PROCEDURE m_fae_cliente (
+ 36  	     p_id_fae_cliente	IN    NUMBER,
+ 37  	     p_id_estado	IN    NUMBER,
+ 38  	     p_usuario		IN    VARCHAR2,
+ 39  	     p_respuesta	OUT   NUMBER
+ 40  	 ) IS
+ 41  	     PRAGMA autonomous_transaction;
+ 42  	     v_log_id NUMBER;
+ 43  	 BEGIN
+ 44  	     v_log_id := gelec.insert_log('Modifica FAE_Cliente con id: '
+ 45  					  || p_id_fae_cliente
+ 46  					  || ' al estado: '
+ 47  					  || p_id_estado, p_usuario);
+ 48  
+ 49  	     UPDATE gelec.ed_fae_cliente fc
+ 50  	     SET
+ 51  		 fc.id_estado = p_id_estado
+ 52  	     WHERE
+ 53  		 fc.id = p_id_fae_cliente;
+ 54  
+ 55  	     COMMIT;
+ 56  	     p_respuesta := 1;
+ 57  	 END;
+ 58  
+ 59  	 PROCEDURE asociarfaecliente (
+ 60  	     p_id_fae_cliente	IN    NUMBER,
+ 61  	     p_id_fae		IN    NUMBER,
+ 62  	     p_usuario		IN    VARCHAR2,
+ 63  	     p_respuesta	OUT   NUMBER
+ 64  	 ) IS
+ 65  	     PRAGMA autonomous_transaction;
+ 66  	     v_log_id NUMBER;
+ 67  	 BEGIN
+ 68  	     v_log_id := gelec.insert_log('Asocia FAE_Cliente con id: '
+ 69  					  || p_id_fae_cliente
+ 70  					  || ' al equipo: '
+ 71  					  || p_id_fae, p_usuario);
+ 72  
+ 73  	     UPDATE gelec.ed_fae_cliente fc
+ 74  	     SET
+ 75  		 fc.id_fae = p_id_fae
+ 76  	     WHERE
+ 77  		 fc.id = p_id_fae_cliente;
+ 78  
+ 79  	     GELEC.PKG_FAE.ADMIN_MARCAS_FAE(p_id_fae_cliente, p_usuario, p_respuesta);
+ 80  
+ 81  	     COMMIT;
+ 82  	     p_respuesta := 1;
+ 83  	 END;
+ 84  
+ 85  	 PROCEDURE a_orden (
+ 86  	     p_cuenta		IN    VARCHAR2,
+ 87  	     p_id_fae_cliente	IN    NUMBER,
+ 88  	     p_id_tipo		IN    NUMBER,
+ 89  	     p_id_responsable	IN    NUMBER,
+ 90  	     p_usuario		IN    VARCHAR2,
+ 91  	     p_nota		IN    VARCHAR2,
+ 92  	     p_fecha_inicio	IN    DATE,
+ 93  	     p_id		OUT   NUMBER
+ 94  	 ) IS
+ 95  	     PRAGMA autonomous_transaction;
+ 96  	     v_log_id	 NUMBER;
+ 97  	     v_id	 NUMBER;
+ 98  	     v_id_nota	 NUMBER;
+ 99  	     v_asociar	 VARCHAR2(15 CHAR);
+100  	     v_ordenesSinFechaFin NUMBER;
+101  	 BEGIN
+102  
+103  	     select count(*)
+104  	     into v_ordenesSinFechaFin
+105  	     from gelec.ed_ordenes o
+106  	     where cuenta = p_cuenta
+107  	     and id_tipo = p_id_tipo
+108  	     and o.ID_FAE_CLIENTE = p_id_fae_cliente
+109  	     and fin is null;
+110  
+111  	     IF(v_ordenesSinFechaFin != 0)
+112  	     THEN
+113  	     p_id := 0;
+114  	     RETURN;
+115  	     END IF;
+116  
+117  	     v_log_id := gelec.insert_log('Crea Orden', p_usuario);
+118  	     v_id := gelec.seq_ordenes.nextval();
+119  	     INSERT INTO gelec.ed_ordenes o (
+120  		 o.id,
+121  		 o.cuenta,
+122  		 o.id_fae_cliente,
+123  		 o.id_estado,
+124  		 o.id_tipo,
+125  		 o.id_responsable,
+126  		 o.log_desde,
+127  		 o.inicio,
+128  		 o.usuario
+129  	     ) VALUES (
+130  		 v_id,
+131  		 p_cuenta,
+132  		 p_id_fae_cliente,
+133  		 1,
+134  		 p_id_tipo,
+135  		 p_id_responsable,
+136  		 v_log_id,
+137  		 p_fecha_inicio,
+138  		 p_usuario
+139  	     );
+140  
+141  	     v_id_nota := gelec.seq_notas.nextval();
+142  	     INSERT INTO gelec.ed_notas n (
+143  		 n.id_nota,
+144  		 n.id_tipo_nota,
+145  		 n.fechahora,
+146  		 n.observaciones,
+147  		 n.log_desde,
+148  		 n.usuario
+149  	     ) VALUES (
+150  		 v_id_nota,
+151  		 2,
+152  		 SYSDATE,
+153  		 p_nota,
+154  		 v_log_id,
+155  		 p_usuario
+156  	     );
+157  
+158  	     COMMIT;
+159  	     gelec.pkg_notas.asociar_nota(NULL, p_cuenta, p_usuario, v_id_nota, v_asociar);
+160  	     COMMIT;
+161  	     --11/08/2022 RSLEIVA
+162  	     GELEC.PKG_FAE.ADMIN_MARCAS_FAE(p_id_fae_cliente, p_usuario, p_id);
+163  	     --
+164  	     p_id := v_id;
+165  	 END;
+166  
+167  	 PROCEDURE abonar_orden (
+168  	     p_id_orden    IN	 NUMBER,
+169  	     p_abono	   IN	 NUMBER,
+170  	     p_usuario	   IN	 VARCHAR2,
+171  	     p_fecha	   IN	 DATE,
+172  	     p_respuesta   OUT	 NUMBER
+173  	 ) IS
+174  	     PRAGMA autonomous_transaction;
+175  	     v_log_id NUMBER;
+176  	 BEGIN
+177  	     v_log_id := gelec.insert_log('Modifica orden con id: '
+178  					  || p_id_orden
+179  					  || ' abonada: '
+180  					  || p_abono, p_usuario);
+181  
+182  	     UPDATE gelec.ed_ordenes o
+183  	     SET
+184  		 o.abonada = p_abono,
+185  		 o.fecha_abonada = p_fecha
+186  	     WHERE
+187  		 o.id = p_id_orden;
+188  
+189  	     COMMIT;
+190  	     p_respuesta := 1;
+191  	 END;
+192  
+193  	 PROCEDURE m_orden (
+194  	     p_id_orden    IN	 NUMBER,
+195  	     p_id_estado   IN	 NUMBER,
+196  	     p_fecha_ini   IN	 DATE,
+197  	     p_fecha_fin   IN	 DATE,
+198  	     p_usuario	   IN	 VARCHAR2,
+199  	     p_respuesta   OUT	 NUMBER
+200  	 ) IS
+201  
+202  	     PRAGMA autonomous_transaction;
+203  	     v_log_id			   NUMBER;
+204  	     v_tipo_orden		   NUMBER;
+205  	     v_id_fae_cliente		   NUMBER;
+206  	     v_fecha_fin		   DATE;
+207  	     v_estado_actual		   NUMBER;
+208  	     v_estado_actual_fae_cliente   NUMBER;
+209  	     v_nuevo_estado_fae_cliente    NUMBER;
+210  	 BEGIN
+211  	     v_log_id := gelec.insert_log('Modifica Orden con id: '
+212  					  || p_id_orden
+213  					  || ' al estado: '
+214  					  || p_id_estado
+215  					  || ' fecha_ini: '
+216  					  || p_fecha_ini
+217  					  || ' fecha_fin: '
+218  					  || p_fecha_fin, p_usuario);
+219  
+220  	   -- Me fijo la fecha de fin original
+221  
+222  	     SELECT
+223  		 o.fin
+224  	     INTO v_fecha_fin
+225  	     FROM
+226  		 gelec.ed_ordenes o
+227  	     WHERE
+228  		 o.id = p_id_orden;
+229  
+230  
+231  	 -- Solo updateo estado si p_estado != 0
+232  
+233  	     IF ( p_id_estado != 0 ) THEN
+234  		 UPDATE gelec.ed_ordenes o
+235  		 SET
+236  		     o.id_estado = nvl(p_id_estado, o.id_estado),
+237  		     o.inicio = nvl(p_fecha_ini, o.inicio),
+238  		     o.fin = p_fecha_fin
+239  		 WHERE
+240  		     o.id = p_id_orden;
+241  
+242  	     END IF;
+243  
+244  	   -- Me fijo el tipo de orden, idFaeCliente y estado actual
+245  
+246  	     SELECT
+247  		 o.id_tipo,
+248  		 o.id_fae_cliente,
+249  		 o.id_estado
+250  	     INTO
+251  		 v_tipo_orden,
+252  		 v_id_fae_cliente,
+253  		 v_estado_actual
+254  	     FROM
+255  		 gelec.ed_ordenes o
+256  	     WHERE
+257  		 o.id = p_id_orden;
+258  
+259  	   -- Si confirman orden o cambian la fecha de fin a una orden confirmada
+260  
+261  	     IF ( ( nvl(p_id_estado, 0) = 2 OR v_estado_actual = 2 ) AND ( p_fecha_fin IS NOT NULL AND p_fecha_fin != nvl(v_fecha_fin, TO_DATE
+262  
+263  	     ('01/01/1990', 'DD/MM/YYYY')) ) ) THEN
+264  	      -- Si es tipo 1 (instalacion) o tipo 4 (retiro) tengo que cambiar la fecha de instalacion o retiro
+265  		 IF ( v_tipo_orden = 1 ) THEN
+266  		     UPDATE gelec.ed_fae_cliente fc
+267  		     SET
+268  			 fc.instalacion = p_fecha_fin,
+269  			 fc.id_estado = 5
+270  		     WHERE
+271  			 fc.id = v_id_fae_cliente;
+272  
+273  		 ELSE
+274  		     IF ( v_tipo_orden = 4 ) THEN
+275  			 UPDATE gelec.ed_fae_cliente fc
+276  			 SET
+277  			     fc.retiro = p_fecha_fin,
+278  			     fc.id_estado = 6
+279  			 WHERE
+280  			     fc.id = v_id_fae_cliente;
+281  
+282  		     END IF;
+283  		 END IF;
+284  	     END IF;
+285  
+286  	   -- Si reactivan orden
+287  
+288  	   -- Si ID_ESTADO = 0, solamente deshago el abono y fecha de abono
+289  
+290  	     IF ( p_id_estado = 0 ) THEN
+291  		 UPDATE gelec.ed_ordenes o
+292  		 SET
+293  		     o.abonada = NULL,
+294  		     o.fecha_abonada = NULL
+295  		 WHERE
+296  		     o.id = p_id_orden;
+297  
+298  	     END IF;
+299  
+300  	     IF ( p_id_estado = 1 ) THEN
+301  	      -- Si es tipo 1 (instalacion) o tipo 4 (retiro) tengo que cambiar la fecha de instalacion o retiro
+302  		 IF ( v_tipo_orden = 1 ) THEN
+303  		     UPDATE gelec.ed_fae_cliente fc
+304  		     SET
+305  			 fc.instalacion = NULL
+306  		     WHERE
+307  			 fc.id = v_id_fae_cliente;
+308  
+309  		 ELSE
+310  		     IF ( v_tipo_orden = 4 ) THEN
+311  			 UPDATE gelec.ed_fae_cliente fc
+312  			 SET
+313  			     fc.retiro = NULL
+314  			 WHERE
+315  			     fc.id = v_id_fae_cliente;
+316  
+317  		     END IF;
+318  		 END IF;
+319  	     END IF;
+320  
+321  	   -- Logica de cambio de estado de fae cliente
+322  
+323  	   --Tipo de ordenes:
+324  	   --1 Pendiente
+325  	   --2 Pendiente de visita
+326  	   --3 Falta adecuar
+327  	   --4 Falta documentacion
+328  	   --5 Finalizada
+329  	   --6 Cancelada
+330  	   --7 Falta adecuar (c/FAE)
+331  	   --8 Visita fallida
+332  	   --9 Rechazada
+333  	   --10 EDP en tramite
+334  
+335  	   -- Estados ordenes:
+336  	   --1 Pendiente
+337  	   --2 Finalizado
+338  	   --3 Fallida
+339  
+340  	   -- instalacion
+341  
+342  	     SELECT
+343  		 fc.id_estado
+344  	     INTO v_estado_actual_fae_cliente
+345  	     FROM
+346  		 gelec.ed_fae_cliente fc
+347  	     WHERE
+348  		 fc.id = v_id_fae_cliente;
+349  
+350  	     IF ( v_tipo_orden = 1 ) THEN
+351  		 CASE ( nvl(p_id_estado, 0) )
+352  		     WHEN 1 THEN
+353  			 v_nuevo_estado_fae_cliente := 1;
+354  		     WHEN 2 THEN
+355  			 v_nuevo_estado_fae_cliente := 5;
+356  		     WHEN 3 THEN
+357  			 v_nuevo_estado_fae_cliente := 8;
+358  		     ELSE
+359  			 v_nuevo_estado_fae_cliente := v_estado_actual_fae_cliente;
+360  		 END CASE;
+361  	     END IF;
+362  
+363  	   -- Preventivo FAE, Correctivo
+364  
+365  	     IF ( v_tipo_orden IN (
+366  		 3,
+367  		 6
+368  	     ) ) THEN
+369  		 CASE ( nvl(p_id_estado, 0) )
+370  		     WHEN 3 THEN
+371  			 v_nuevo_estado_fae_cliente := 8;
+372  		     ELSE
+373  			 v_nuevo_estado_fae_cliente := v_estado_actual_fae_cliente;
+374  		 END CASE;
+375  	     END IF;
+376  
+377  	   -- retiro
+378  
+379  	     IF ( v_tipo_orden = 4 ) THEN
+380  		 CASE ( nvl(p_id_estado, 0) )
+381  		     WHEN 2 THEN
+382  			 v_nuevo_estado_fae_cliente := 6;
+383  		     WHEN 3 THEN
+384  			 v_nuevo_estado_fae_cliente := 8;
+385  		     ELSE
+386  			 v_nuevo_estado_fae_cliente := v_estado_actual_fae_cliente;
+387  		 END CASE;
+388  	     END IF;
+389  
+390  	     IF ( v_estado_actual_fae_cliente != v_nuevo_estado_fae_cliente ) THEN
+391  		 UPDATE gelec.ed_fae_cliente fc
+392  		 SET
+393  		     fc.id_estado = v_nuevo_estado_fae_cliente
+394  		 WHERE
+395  		     fc.id = v_id_fae_cliente;
+396  
+397  	     END IF;
+398  
+399  	     COMMIT;
+400  	     --11/08/2022 RSLEIVA
+401  	     GELEC.PKG_FAE.ADMIN_MARCAS_FAE(V_ID_FAE_CLIENTE, P_USUARIO, P_RESPUESTA);
+402  	     --
+403  	     p_respuesta := 1;
+404  	 END;
+405  
+406  	 PROCEDURE m_equipo_stock (
+407  	     p_usuario	   IN	 VARCHAR2,
+408  	     p_serie	   IN	 VARCHAR2,
+409  	     p_deposito    IN	 VARCHAR2,
+410  	     p_potencia    IN	 NUMBER,
+411  	     p_capacidad   IN	 FLOAT,
+412  	     p_ingreso	   IN	 DATE,
+413  	     p_id_modelo   IN	 NUMBER,
+414  	     p_idfae	   IN	 NUMBER,
+415  	     p_respuesta   OUT	 NUMBER
+416  	 ) IS
+417  	     PRAGMA autonomous_transaction;
+418  	     v_log   NUMBER;
+419  	     v_id    NUMBER;
+420  	 BEGIN
+421  	     v_log := gelec.insert_log('Modifica equipo FAE con id: ' || p_idfae, p_usuario);
+422  	     UPDATE gelec.ed_equipo_fae
+423  	     SET
+424  		 serie = p_serie,
+425  		 deposito = p_deposito,
+426  		 potencia = p_potencia,
+427  		 capacidad = p_capacidad,
+428  		 ingreso = p_ingreso,
+429  		 id_modelo = p_id_modelo
+430  	     WHERE
+431  		 id = p_idfae;
+432  
+433  	     COMMIT;
+434  	     p_respuesta := 1;
+435  	 END;
+436  
+437  	 PROCEDURE a_equipo (
+438  	     p_usuario	   IN	 VARCHAR2,
+439  	     p_serie	   IN	 VARCHAR2,
+440  	     p_deposito    IN	 VARCHAR2,
+441  	     p_potencia    IN	 NUMBER,
+442  	     p_capacidad   IN	 FLOAT,
+443  	     p_ingreso	   IN	 DATE,
+444  	     p_id_modelo   IN	 NUMBER,
+445  	     p_respuesta   OUT	 NUMBER
+446  	 ) IS
+447  	     PRAGMA autonomous_transaction;
+448  	     v_log   NUMBER;
+449  	     v_id    NUMBER;
+450  	 BEGIN
+451  	     v_id := gelec.seq_equipo_fae.nextval();
+452  	     v_log := gelec.insert_log('Da de alta nuevo equipo FAE con id: ' || v_id, p_usuario);
+453  	     INSERT INTO gelec.ed_equipo_fae (
+454  		 id,
+455  		 serie,
+456  		 deposito,
+457  		 potencia,
+458  		 capacidad,
+459  		 ingreso,
+460  		 id_modelo,
+461  		 log_desde
+462  	     ) VALUES (
+463  		 v_id,
+464  		 p_serie,
+465  		 p_deposito,
+466  		 p_potencia,
+467  		 p_capacidad,
+468  		 p_ingreso,
+469  		 p_id_modelo,
+470  		 v_log
+471  	     );
+472  
+473  	     COMMIT;
+474  	     p_respuesta := 1;
+475  	 END;
+476  
+477  	 PROCEDURE m_equipo (
+478  	     p_id	   IN	 NUMBER,
+479  	     p_capacidad   IN	 FLOAT,
+480  	     p_usuario	   IN	 VARCHAR2,
+481  	     p_respuesta   OUT	 NUMBER
+482  	 ) IS
+483  	     PRAGMA autonomous_transaction;
+484  	     v_log NUMBER;
+485  	 BEGIN
+486  	     v_log := gelec.insert_log('Modifica capacidad de equipo FAE id: '
+487  				       || p_id
+488  				       || ' capacidad: '
+489  				       || p_capacidad, p_usuario);
+490  
+491  	     UPDATE gelec.ed_equipo_fae e
+492  	     SET
+493  		 e.capacidad = p_capacidad
+494  	     WHERE
+495  		 e.id = p_id;
+496  
+497  	     p_respuesta := 1;
+498  	     COMMIT;
+499  	 END;
+500  
+501  	     PROCEDURE ADMIN_MARCAS_FAE(
+502  		     p_id_fae_cliente	     IN    NUMBER,
+503  		     p_usuario			     IN    VARCHAR2,
+504  		     p_respuesta		     OUT   NUMBER
+505  	     ) IS PRAGMA autonomous_transaction;
+506  
+507  		     --rsleiva 09/08/2022 Actualiza Marca "Posee FAE", activandola o desactivandola
+508  		     --busco la cuenta desde el p_id_fae_cliente
+509  		     --no importa si tiene o no asociada fae, se dara importancia al flujo de ordenes de instalacion y retiro
+510  		     --convoco el proceso que activa o desactiva la marca.
+511  		     V_CUENTA GELEC.ED_CLIENTES.CUENTA%TYPE;
+512  		     V_MARCA NUMBER;
+513  		     V_RESUL VARCHAR2(20);
+514  		     V_FAE_A NUMBER;
+515  		     V_FAE_R NUMBER;
+516  	     BEGIN
+517  		     --BUSCO LA CUENTA DESDE EL ID_FAE_CLIENTE
+518  		     SELECT CUENTA INTO V_CUENTA FROM GELEC.ED_FAE_CLIENTE WHERE ID=P_ID_FAE_CLIENTE;
+519  		     --VERIFICO SI TIENE O NO MARCA ACTIVA
+520  		     SELECT COUNT(1) INTO V_MARCA FROM GELEC.ED_MARCA_CLIENTE WHERE ID_MARCA=7 AND ID_SUBMARCA=18 AND CUENTA=V_CUENTA AND LOG_HASTA IS NULL;
+521  		     --CUENTO LAS FAE ACTIVAS PARA LA CUENTA
+522  		     SELECT COUNT(1) INTO V_FAE_A FROM GELEC.ED_ORDENES WHERE ID_TIPO=1 AND ID_ESTADO=2 AND CUENTA=V_CUENTA;
+523  		     -- CUENTO LAS FAE RETIRADAS PARA LA CUENTA
+524  		     SELECT COUNT(1) INTO V_FAE_R FROM GELEC.ED_ORDENES WHERE ID_TIPO=4 AND ID_ESTADO=2 AND CUENTA=V_CUENTA;
+525  		     --
+526  		     --¿TIENE FAE ACTIVA?
+527  		     IF (V_FAE_A-V_FAE_R)>0 THEN
+528  			     --SI TIENE FAE. ¿LE FALTA LA MARCA POSEE FAE?
+529  			     IF V_MARCA=0 THEN
+530  				     GELEC.PKG_OTROS.INSERTAR_MARCA(P_USUARIO, '7', '18',V_CUENTA,'[ALTA Marca: Cliente | Submarca: POSEE FAE]',V_RESUL);
+531  			     END IF;
+532  		     ELSE
+533  			     --NO TIENE FAE. ¿TODAVIA TIENE LA MARCA DE FAE?
+534  			     IF V_MARCA>0 THEN
+535  				     GELEC.PKG_OTROS.INSERTAR_MARCA(P_USUARIO, '7', '18',V_CUENTA,'[ALTA Marca: Cliente | Submarca: POSEE FAE]',V_RESUL);
+536  			     END IF;
+537  		     END IF;
+538  		     p_respuesta:=1;
+539  	     EXCEPTION
+540  		     WHEN NO_DATA_FOUND THEN
+541  			     p_respuesta:=0;
+542  	     END;
+543  
+544  END;
+545  /
+
+Package body created.
+
+Elapsed: 00:00:00.10
+SQL> 
+SQL> 
+SQL> 
+SQL> 
+SQL> show errors;
+No errors.
+SQL> 
+SQL> exit

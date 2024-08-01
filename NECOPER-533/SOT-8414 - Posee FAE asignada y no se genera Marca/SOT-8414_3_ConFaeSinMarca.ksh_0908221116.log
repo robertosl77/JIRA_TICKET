@@ -1,0 +1,301 @@
+
+
+   ______________________________________________________________________________________________________________
+
+                     EJECUCION DE PROCESO - DATE: 09/08/22 11:16:33 - DATABASE: GISPR02
+                                               SCRIPT EJECUTADO: /stage/gis/imple/procesos/TMT/trans/TPR/batch/SOT-8414_3_ConFaeSinMarca.ksh
+
+   ______________________________________________________________________________________________________________
+
+    * 09/08/22 11:16:33 - Iniciando ejecucion ............... 
+
+
+
+    * 09/08/22 11:16:33 - Detalle Ejecucion proceso ............... 
+
+CLIENTES CON FAE SIN MARCA POSEE FAE
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418297,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 2155579154,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>Sin marca Posee FAE anterior a insertar.
+GELEC.ED_NOTAS >>>106481,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418297,0
+GELEC.ED_MARCA_CLIENTE >>>6997,2155579154,7,18,418297,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418298,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 0933557784,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>Sin marca Posee FAE anterior a insertar.
+GELEC.ED_NOTAS >>>106482,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418298,0
+GELEC.ED_MARCA_CLIENTE >>>6998,933557784,7,18,418298,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418299,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 5141733035,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>Sin marca Posee FAE anterior a insertar.
+GELEC.ED_NOTAS >>>106483,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418299,0
+GELEC.ED_MARCA_CLIENTE >>>6999,5141733035,7,18,418299,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418300,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 5864301028,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>Sin marca Posee FAE anterior a insertar.
+GELEC.ED_NOTAS >>>106484,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418300,0
+GELEC.ED_MARCA_CLIENTE >>>7000,5864301028,7,18,418300,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418301,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 0894492657,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>Sin marca Posee FAE anterior a insertar.
+GELEC.ED_NOTAS >>>106485,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418301,0
+GELEC.ED_MARCA_CLIENTE >>>7001,894492657,7,18,418301,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418302,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 8194489122,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>Sin marca Posee FAE anterior a insertar.
+GELEC.ED_NOTAS >>>106486,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418302,0
+GELEC.ED_MARCA_CLIENTE >>>7002,8194489122,7,18,418302,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418303,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 5940345961,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>Sin marca Posee FAE anterior a insertar.
+GELEC.ED_NOTAS >>>106487,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418303,0
+GELEC.ED_MARCA_CLIENTE >>>7003,5940345961,7,18,418303,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418304,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 6468274633,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>Sin marca Posee FAE anterior a insertar.
+GELEC.ED_NOTAS >>>106488,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418304,0
+GELEC.ED_MARCA_CLIENTE >>>7004,6468274633,7,18,418304,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418305,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 6765874241,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>Sin marca Posee FAE anterior a insertar.
+GELEC.ED_NOTAS >>>106489,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418305,0
+GELEC.ED_MARCA_CLIENTE >>>7005,6765874241,7,18,418305,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418306,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 6765874241,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>7005,6765874241,7,18,418305,0
+GELEC.ED_NOTAS >>>106490,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418306,0
+GELEC.ED_MARCA_CLIENTE >>>7005,6765874241,7,18,418305,0
+GELEC.ED_MARCA_CLIENTE >>>7006,6765874241,7,18,418306,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418307,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 8462929022,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>Sin marca Posee FAE anterior a insertar.
+GELEC.ED_NOTAS >>>106491,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418307,0
+GELEC.ED_MARCA_CLIENTE >>>7007,8462929022,7,18,418307,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418308,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 7770451183,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>Sin marca Posee FAE anterior a insertar.
+GELEC.ED_NOTAS >>>106492,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418308,0
+GELEC.ED_MARCA_CLIENTE >>>7008,7770451183,7,18,418308,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418309,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 7538349885,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>Sin marca Posee FAE anterior a insertar.
+GELEC.ED_NOTAS >>>106493,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418309,0
+GELEC.ED_MARCA_CLIENTE >>>7009,7538349885,7,18,418309,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418310,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 1434929082,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>Sin marca Posee FAE anterior a insertar.
+GELEC.ED_NOTAS >>>106494,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418310,0
+GELEC.ED_MARCA_CLIENTE >>>7010,1434929082,7,18,418310,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418311,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 1434929082,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>7010,1434929082,7,18,418310,0
+GELEC.ED_NOTAS >>>106495,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418311,0
+GELEC.ED_MARCA_CLIENTE >>>7010,1434929082,7,18,418310,0
+GELEC.ED_MARCA_CLIENTE >>>7011,1434929082,7,18,418311,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418312,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 8138789474,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>Sin marca Posee FAE anterior a insertar.
+GELEC.ED_NOTAS >>>106496,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418312,0
+GELEC.ED_MARCA_CLIENTE >>>7012,8138789474,7,18,418312,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418313,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 3029389215,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>Sin marca Posee FAE anterior a insertar.
+GELEC.ED_NOTAS >>>106497,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418313,0
+GELEC.ED_MARCA_CLIENTE >>>7013,3029389215,7,18,418313,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418314,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 1696353945,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>Sin marca Posee FAE anterior a insertar.
+GELEC.ED_NOTAS >>>106498,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418314,0
+GELEC.ED_MARCA_CLIENTE >>>7014,1696353945,7,18,418314,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418315,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 4553524102,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>Sin marca Posee FAE anterior a insertar.
+GELEC.ED_NOTAS >>>106499,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418315,0
+GELEC.ED_MARCA_CLIENTE >>>7015,4553524102,7,18,418315,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418316,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 4437000000,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>Sin marca Posee FAE anterior a insertar.
+GELEC.ED_NOTAS >>>106500,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418316,0
+GELEC.ED_MARCA_CLIENTE >>>7016,4437000000,7,18,418316,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418317,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 0716292556,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>Sin marca Posee FAE anterior a insertar.
+GELEC.ED_NOTAS >>>106501,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418317,0
+GELEC.ED_MARCA_CLIENTE >>>7017,716292556,7,18,418317,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418318,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 6717835735,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>Sin marca Posee FAE anterior a insertar.
+GELEC.ED_NOTAS >>>106502,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418318,0
+GELEC.ED_MARCA_CLIENTE >>>7018,6717835735,7,18,418318,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418319,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 7742736368,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>Sin marca Posee FAE anterior a insertar.
+GELEC.ED_NOTAS >>>106503,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418319,0
+GELEC.ED_MARCA_CLIENTE >>>7019,7742736368,7,18,418319,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418320,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 4709003790,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>Sin marca Posee FAE anterior a insertar.
+GELEC.ED_NOTAS >>>106504,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418320,0
+GELEC.ED_MARCA_CLIENTE >>>7020,4709003790,7,18,418320,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418321,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 9257916093,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>Sin marca Posee FAE anterior a insertar.
+GELEC.ED_NOTAS >>>106505,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418321,0
+GELEC.ED_MARCA_CLIENTE >>>7021,9257916093,7,18,418321,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418322,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 6660786512,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>Sin marca Posee FAE anterior a insertar.
+GELEC.ED_NOTAS >>>106506,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418322,0
+GELEC.ED_MARCA_CLIENTE >>>7022,6660786512,7,18,418322,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418323,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 1322040640,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>Sin marca Posee FAE anterior a insertar.
+GELEC.ED_NOTAS >>>106507,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418323,0
+GELEC.ED_MARCA_CLIENTE >>>7023,1322040640,7,18,418323,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418324,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 2565938082,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>Sin marca Posee FAE anterior a insertar.
+GELEC.ED_NOTAS >>>106508,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418324,0
+GELEC.ED_MARCA_CLIENTE >>>7024,2565938082,7,18,418324,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418325,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 9659212622,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>Sin marca Posee FAE anterior a insertar.
+GELEC.ED_NOTAS >>>106509,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418325,0
+GELEC.ED_MARCA_CLIENTE >>>7025,9659212622,7,18,418325,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418326,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 2653770650,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>Sin marca Posee FAE anterior a insertar.
+GELEC.ED_NOTAS >>>106510,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418326,0
+GELEC.ED_MARCA_CLIENTE >>>7026,2653770650,7,18,418326,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418327,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 9356060374,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>Sin marca Posee FAE anterior a insertar.
+GELEC.ED_NOTAS >>>106511,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418327,0
+GELEC.ED_MARCA_CLIENTE >>>7027,9356060374,7,18,418327,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418328,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 4155598961,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>Sin marca Posee FAE anterior a insertar.
+GELEC.ED_NOTAS >>>106512,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418328,0
+GELEC.ED_MARCA_CLIENTE >>>7028,4155598961,7,18,418328,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418329,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 9461626972,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>Sin marca Posee FAE anterior a insertar.
+GELEC.ED_NOTAS >>>106513,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418329,0
+GELEC.ED_MARCA_CLIENTE >>>7029,9461626972,7,18,418329,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418330,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 5824013380,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>Sin marca Posee FAE anterior a insertar.
+GELEC.ED_NOTAS >>>106514,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418330,0
+GELEC.ED_MARCA_CLIENTE >>>7030,5824013380,7,18,418330,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418331,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 5986000000,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>Sin marca Posee FAE anterior a insertar.
+GELEC.ED_NOTAS >>>106515,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418331,0
+GELEC.ED_MARCA_CLIENTE >>>7031,5986000000,7,18,418331,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418332,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 6675187115,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>Sin marca Posee FAE anterior a insertar.
+GELEC.ED_NOTAS >>>106516,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418332,0
+GELEC.ED_MARCA_CLIENTE >>>7032,6675187115,7,18,418332,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418333,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 7880290325,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>Sin marca Posee FAE anterior a insertar.
+GELEC.ED_NOTAS >>>106517,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418333,0
+GELEC.ED_MARCA_CLIENTE >>>7033,7880290325,7,18,418333,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418334,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 9541888423,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>Sin marca Posee FAE anterior a insertar.
+GELEC.ED_NOTAS >>>106518,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418334,0
+GELEC.ED_MARCA_CLIENTE >>>7034,9541888423,7,18,418334,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418335,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 5146959602,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>Sin marca Posee FAE anterior a insertar.
+GELEC.ED_NOTAS >>>106519,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418335,0
+GELEC.ED_MARCA_CLIENTE >>>7035,5146959602,7,18,418335,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418336,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 9618887773,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>Sin marca Posee FAE anterior a insertar.
+GELEC.ED_NOTAS >>>106520,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418336,0
+GELEC.ED_MARCA_CLIENTE >>>7036,9618887773,7,18,418336,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418337,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 9618887773,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>7036,9618887773,7,18,418336,0
+GELEC.ED_NOTAS >>>106521,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418337,0
+GELEC.ED_MARCA_CLIENTE >>>7036,9618887773,7,18,418336,0
+GELEC.ED_MARCA_CLIENTE >>>7037,9618887773,7,18,418337,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418338,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 7576800063,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>Sin marca Posee FAE anterior a insertar.
+GELEC.ED_NOTAS >>>106522,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418338,0
+GELEC.ED_MARCA_CLIENTE >>>7038,7576800063,7,18,418338,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418339,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 0848264753,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>Sin marca Posee FAE anterior a insertar.
+GELEC.ED_NOTAS >>>106523,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418339,0
+GELEC.ED_MARCA_CLIENTE >>>7039,848264753,7,18,418339,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418340,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 2124067234,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>Sin marca Posee FAE anterior a insertar.
+GELEC.ED_NOTAS >>>106524,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418340,0
+GELEC.ED_MARCA_CLIENTE >>>7040,2124067234,7,18,418340,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418341,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 8001563642,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>Sin marca Posee FAE anterior a insertar.
+GELEC.ED_NOTAS >>>106525,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418341,0
+GELEC.ED_MARCA_CLIENTE >>>7041,8001563642,7,18,418341,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+GELEC.ED_LOG >>>418342,Modifica marca: 7 | Submarca: 18 | en cuenta nro: 0087274289,09/08/22,AplicaciÃ³n
+GELEC.ED_MARCA_CLIENTE >>>Sin marca Posee FAE anterior a insertar.
+GELEC.ED_NOTAS >>>106526,AplicaciÃ³n,09/08/22,[Marca: Cliente | Submarca: POSEE FAE],418342,0
+GELEC.ED_MARCA_CLIENTE >>>7042,87274289,7,18,418342,0
+------------------------------------------------------------------------------------------------------------------------
+-----------
+
+
+    * 09/08/22 11:16:33 - Fin Ejecucion proceso ............... 
+

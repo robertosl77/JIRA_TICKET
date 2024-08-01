@@ -1,0 +1,340 @@
+CREATE OR REPLACE PACKAGE           NEXUS_GIS.sms
+IS
+   FUNCTION existecliente (ident IN VARCHAR2)
+      RETURN VARCHAR2;
+
+   PROCEDURE altareclamo (ident           IN   VARCHAR2,
+						  problema        IN   NUMBER,
+                          tel_caller_id   IN   VARCHAR2,
+                          radio_corte     IN   NUMBER);
+
+   FUNCTION obtultimoreclamo (ident IN VARCHAR2)
+      RETURN INTEGER;
+
+   FUNCTION entradasms (ident IN VARCHAR2,
+                        tel_caller_id   IN   VARCHAR2)
+      RETURN VARCHAR2;
+
+   FUNCTION data_client (str_cadena IN VARCHAR2,
+                        pos1   IN   NUMBER,
+                        pos2 IN NUMBER)
+      RETURN VARCHAR2;
+
+   FUNCTION sms_texto ( idtexto   IN   NUMBER,
+                        val_param IN VARCHAR2)
+      RETURN VARCHAR2;
+
+
+END sms;
+/
+
+
+CREATE OR REPLACE PACKAGE BODY           NEXUS_GIS.sms
+IS
+   FUNCTION existecliente (ident VARCHAR2)
+      RETURN VARCHAR2
+   IS
+	  v_retorno VARCHAR2 (512);
+
+   BEGIN
+       v_retorno := nexus_gis.ivr.existecliente(ident);
+	   return(v_retorno);
+   EXCEPTION
+   WHEN OTHERS THEN
+		v_retorno :=  'SMS|-1';
+	    return(v_retorno);
+   END existecliente;
+
+   PROCEDURE altareclamo (
+      ident           IN   VARCHAR2,
+      problema        IN   NUMBER,
+      tel_caller_id   IN   VARCHAR2,
+      radio_corte     IN   NUMBER
+   )
+   IS
+   BEGIN
+       nexus_gis.ivr.altareclamo(ident, problema, tel_caller_id, radio_corte, 2810);
+   EXCEPTION
+   WHEN OTHERS THEN
+        NULL;
+   END altareclamo;
+
+   FUNCTION obtultimoreclamo (ident IN VARCHAR2)
+      RETURN INTEGER
+   IS
+	v_retorno	NUMBER (10);
+   BEGIN
+
+	  v_retorno := nexus_gis.ivr.obtultimoreclamo(ident);
+	  return(v_retorno);
+   EXCEPTION
+   WHEN OTHERS THEN
+      v_retorno := -1;
+	  return(v_retorno);
+   END obtultimoreclamo;
+
+   FUNCTION entradasms (ident VARCHAR2,tel_caller_id   IN   VARCHAR2)
+      RETURN VARCHAR2
+   IS
+	  v_retorno VARCHAR2 (512);
+
+
+      pos1            NUMBER;
+      radio_corte     NUMBER(10);-- Devuelve el id del docuemnto en caso que el reclamo esta bajo un corte
+      reclamo_num     NUMBER(10);
+      respuesta       VARCHAR2(255);
+      codigo          VARCHAR2(10);
+      RES             VARCHAR2(250);
+      v_cliente       VARCHAR2(12);
+      cliente_exist   VARCHAR2(50);
+      v_origen        VARCHAR2(12):= null;
+      str_cadena      VARCHAR2(255);
+      c_corte         VARCHAR2(1);-- 1 esta bajo corte / 0 sin corte
+      reclamo         VARCHAR2(20):= null ;-- Reclamo obtenido del cliente es null en caso de no tener reclamo
+      anio_mes        VARCHAR2(20);
+      Ranio_mes       VARCHAR2(20);
+      str_desc_origen VARCHAR2(50);
+      v_telefono      VARCHAR2(20);
+      strfecharestauracion VARCHAR2(20);
+      strradiocorte VARCHAR2(20);
+      strareaanomesreclamo VARCHAR2(20);
+      strultimoreclamoabierto  VARCHAR2(20);
+      strmotivodecorteprogramado VARCHAR2(20);
+      strsubmotivodecorteprogramado VARCHAR2(20);
+      strcontingencia  VARCHAR2(20);
+      strtipodecorte  VARCHAR2(20);
+      strduracion   VARCHAR2(20);
+      strerror   VARCHAR2(20);
+      RetVal number;
+      v_idsuspendido number;
+
+
+   BEGIN
+         str_cadena := nexus_gis.ivr.existecliente(ident);
+
+       --extraigo cadena que haga referencia a si existe el cliente
+         cliente_exist :=data_client (str_cadena,10,11);
+
+
+         if NVL(cliente_exist,'Sin Error') !='No existe el cliente' then
+
+
+            select CNTRCTSTATECODEID into v_idsuspendido from NEXUS_GIS.SPRCLIENTS where fsclientid = ident;
+
+            -- Valido que el cliente no este suspendido por fata de pago
+            if v_idsuspendido = 12000 then
+                 --extraigo cadena que haga referencia cliente asociado a corte
+                 pos1:=instr(str_cadena,'|',1,1);
+                 c_corte := substr(str_cadena,1,pos1-1);
+
+                 --extraigo cadena que haga referencia a fecha restauracion
+                 strfecharestauracion:=data_client (str_cadena,1,2);
+
+                 --extraigo cadena que haga referencia a radio de corte
+                 strradiocorte:=data_client (str_cadena,2,3);
+
+                 --extraigo cadena que haga referencia a ultimo reclamo
+                 strareaanomesreclamo:=data_client (str_cadena,3,4);
+
+                 --extraigo cadena que haga referencia a reclamo generado
+                 strultimoreclamoabierto:=data_client (str_cadena,4,5);
+
+                 --extraigo cadena que haga referencia a la contingencia
+                 strcontingencia:=data_client (str_cadena,5,6);
+
+                 --extraigo cadena que haga referencia al tipo de corte
+                 strtipodecorte:=data_client (str_cadena,6,7);
+
+                 --extraigo cadena que haga referencia al motivo de corte programado
+                 strmotivodecorteprogramado:=data_client (str_cadena,7,8);
+
+                 --extraigo cadena que haga referencia al submotivo de corte programado
+                 strsubmotivodecorteprogramado:=data_client (str_cadena,8,9);
+
+                 --extraigo cadena que haga referencia al duracion
+                 strduracion:=data_client (str_cadena,9,10);
+
+                 --extraigo cadena que haga referencia a posible error
+                 strerror:=data_client (str_cadena,10,11);
+
+                 -- VALIDO QUE NO TENGA RECLAMO ABIERTO
+                 /*ojimenez 072022: EL PARAMETRO PARA LA FUNCION SMS_TEXTO SE FORMA DE LA SIGUIENTE FORMA:
+                 'TIEMPO:NUMERO' DE RECLAMO PUDIENDO PASAR EL VALOR null EN CASO DE QUERER PASAR SOLO UN VALOR EJEMPLO 'null:12345' o '3:null'*/
+                 
+                 IF strultimoreclamoabierto IS NULL THEN
+
+                    NEXUS_GIS.SMS.ALTARECLAMO ( ident, 1, tel_caller_id, NULL );
+                    RetVal := NEXUS_GIS.SMS.OBTULTIMORECLAMO ( ident );
+
+                   -- DBMS_OUTPUT.put_line ('Su reclamo es el n¿?ºmero '||RetVal||', el que ha sido transferido al ¿?¡rea t¿?©cnica para su resoluci¿?³n');
+                    --MENSAJE 2
+                    --v_retorno:='Su reclamo es el numero '||RetVal||', el que ha sido transferido al area tecnica para su resolucion.';
+                     v_retorno:=sms_texto (2,'null:' || RetVal);
+
+                 ELSE 
+                    
+                    IF NVL(strtipodecorte,'0') NOT IN ('F','P') THEN
+                        --MENSAJE 7
+                        --DBMS_OUTPUT.put_line ('Su reclamo ya hab¿?a sido registrado bajo el n¿?ºmero'|| strultimoreclamoabierto||' y estamos trabajando para solucionarlo');
+                        --v_retorno:='Su reclamo ya habia sido registrado bajo el numero '|| strultimoreclamoabierto||' y estamos trabajando para solucionarlo.';
+                        v_retorno:=sms_texto (7,'null:' || strultimoreclamoabierto);
+                    END IF;
+                    
+                    IF NVL(strtipodecorte,'SIN TIPO')='P' THEN
+
+                        IF NVL(strduracion,'0')='0' THEN
+                            --MENSAJE 3
+                           -- DBMS_OUTPUT.put_line ('La interrupci¿?³n se debe a tareas programadas de mantenimiento en la red. Estimando su normalizaci¿?³n durante las pr¿?³ximas hs');
+                             --v_retorno:='La interrupcion se debe a tareas programadas de mantenimiento en la red. Estimando su normalizacion durante las proximas hs.';
+                             v_retorno:=sms_texto (3,'null:' || strultimoreclamoabierto);
+
+                        ELSE
+                           --MENSAJE 4
+                           -- DBMS_OUTPUT.put_line ('La interrupci¿?³n se debe a tareas programadas de mantenimiento en la red. Estimando su normalizaci¿?³n durante las pr¿?³ximas '||strduracion||' hs');
+                            --v_retorno:='La interrupcion se debe a tareas programadas de mantenimiento en la red. Estimando su normalizacion durante las proximas '||strduracion||' hs.';
+                            v_retorno:=sms_texto (4,strduracion || ':' || strultimoreclamoabierto);
+                        END IF;
+
+                    END IF;
+                    
+                    IF NVL(strtipodecorte,'SIN TIPO')='P' THEN
+
+                       IF NVL(strduracion,'0')='0' THEN
+                        --MENSAJE 3
+                       -- DBMS_OUTPUT.put_line ('La interrupci¿?³n se debe a tareas programadas de mantenimiento en la red. Estimando su normalizaci¿?³n durante las pr¿?³ximas hs');
+                         --v_retorno:='La interrupcion se debe a tareas programadas de mantenimiento en la red. Estimando su normalizacion durante las proximas hs.';
+                         v_retorno:=sms_texto (3,'null:' || strultimoreclamoabierto);
+    
+                       ELSE
+                       --MENSAJE 4
+                       -- DBMS_OUTPUT.put_line ('La interrupci¿?³n se debe a tareas programadas de mantenimiento en la red. Estimando su normalizaci¿?³n durante las pr¿?³ximas '||strduracion||' hs');
+                        --v_retorno:='La interrupcion se debe a tareas programadas de mantenimiento en la red. Estimando su normalizacion durante las proximas '||strduracion||' hs.';
+                        v_retorno:=sms_texto (4,strduracion || ':' || strultimoreclamoabierto);
+                       END IF;
+                       
+                    END IF;
+                    
+                     IF NVL(strtipodecorte,'SIN TIPO')='F' THEN
+
+                       IF NVL(strduracion,'0')='0' and strultimoreclamoabierto is not null THEN
+                        --MENSAJE 6
+                       -- DBMS_OUTPUT.put_line ('Su reclamo es el '|| strultimoreclamoabierto||'.Trabajamos para solucionarlo. Se ir¿?¡ restableciendo por etapas sin poder precisarle a¿?ºn la hora de reposici¿?³n');
+                        --v_retorno:='Su reclamo es el '|| strultimoreclamoabierto||'.Trabajamos para solucionarlo. Se ira restableciendo por etapas sin poder precisarle aun la hora de reposicion.';
+                        v_retorno:=sms_texto (6,'null:' || strultimoreclamoabierto);
+    
+                       ELSE
+    
+                            IF strduracion !='0' THEN
+                                --MENSAJE 5
+                                -- DBMS_OUTPUT.put_line ('La interrupci¿?³n ya ha sido detectada y estamos trabajando para solucionarla. Se ir¿?¡ restableciendo por etapas en el transcurso de las '||strduracion||' hs');
+                                --v_retorno:='La interrupcion ya ha sido detectada y estamos trabajando para solucionarla. Se ira restableciendo por etapas en el transcurso de las '||strduracion||' hs.';
+                                v_retorno:=sms_texto (5,strduracion || ':' || strultimoreclamoabierto);
+                            ELSE
+                                --MENSAJE 13
+                                -- DBMS_OUTPUT.put_line ('La interrupcion ya ha sido detectada y estamos trabajando para solucionarla. Se ira restableciendo por etapas en las proximas hs.');
+                                --v_retorno:='La interrupcion ya ha sido detectada y estamos trabajando para solucionarla. Se ira restableciendo por etapas en las proximas hs.';
+                                v_retorno:=sms_texto (13,'null:' || strultimoreclamoabierto);
+                            END IF;
+                       END IF;
+                    END IF;
+                 END IF;
+
+            ELSE
+
+              --MENSAJE 14
+
+               -- DBMS_OUTPUT.put_line ('El servicio se encuentra suspendido por falta de pago. Para cancelar el saldo ingrese a edenordigital.com. Muchas gracias.');
+                --v_retorno:='El servicio se encuentra suspendido por falta de pago. Para cancelar el saldo ingrese a edenordigital.com. Muchas gracias.';
+                v_retorno:=sms_texto (14,null);
+
+            END IF;
+
+              /*DBMS_OUTPUT.put_line ('c_corte'||'|'||c_corte);
+              DBMS_OUTPUT.put_line ('strfecharestauracion'||'|'||strfecharestauracion);
+              DBMS_OUTPUT.put_line ('strradiocorte'||'|'||strradiocorte);
+              DBMS_OUTPUT.put_line ('strareaanomesreclamo'||'|'||strareaanomesreclamo);
+              DBMS_OUTPUT.put_line ('strultimoreclamoabierto'||'|'||strultimoreclamoabierto);
+              DBMS_OUTPUT.put_line ('strcontingencia'||'|'||strcontingencia);
+              DBMS_OUTPUT.put_line ('strtipodecorte'||'|'||strtipodecorte);
+              DBMS_OUTPUT.put_line ('strmotivodecorteprogramado'||'|'||strmotivodecorteprogramado);
+              DBMS_OUTPUT.put_line ('strsubmotivodecorteprogramado'||'|'||strsubmotivodecorteprogramado);
+              DBMS_OUTPUT.put_line ('strduracion'||'|'||strduracion);
+              DBMS_OUTPUT.put_line ('strerror'||'|'||strerror);*/
+
+         else
+
+            --MENSAJE 1
+
+          --DBMS_OUTPUT.put_line ('Sr Cliente el n¿?ºmero de cuenta que ha enviado es err¿?³neo. Env¿?elo nuevamente. El mismo figura en la parte superior de la factura');
+          --v_retorno:='Sr Cliente el numero de cuenta que ha enviado es erroneo. Envielo nuevamente. El mismo figura en la parte superior de la factura.';
+            v_retorno:=sms_texto (1,null);
+
+           end if;
+
+       return(v_retorno);
+   EXCEPTION
+   WHEN OTHERS THEN
+        v_retorno :=  'SMS|-1';
+        return(v_retorno);
+   END entradasms;
+
+ FUNCTION data_client (str_cadena VARCHAR2,pos1 IN NUMBER,pos2 IN NUMBER)
+      RETURN VARCHAR2
+   IS
+
+    inipos            NUMBER;
+    finpos            NUMBER;
+    v_retorno VARCHAR2 (50);
+    separador varchar2(2) :='|';
+
+   BEGIN
+
+         --extraigo cadena que haga referencia a si existe el cliente
+         inipos:=instr(str_cadena,separador,1,pos1);
+         finpos:=instr(str_cadena,separador,1,pos2);
+         v_retorno := substr(str_cadena,inipos+1,(finpos-inipos)-1);
+
+       return(v_retorno);
+   EXCEPTION
+   WHEN OTHERS THEN
+        v_retorno :=  'SMS|-1';
+        return(v_retorno);
+
+   END data_client;
+
+
+ FUNCTION sms_texto (idtexto IN NUMBER, val_param IN varchar2)
+      RETURN VARCHAR2
+   IS
+
+    v_retorno  VARCHAR2 (500);
+    str_cadena VARCHAR2 (500);
+    v_tiempo number := case when lower(regexp_substr(val_param, '[^:]+', 1, 1)) = 'null' then null else regexp_substr(val_param, '[^:]+', 1, 1) end;
+    v_reclamo number := case when lower(regexp_substr(val_param, '[^:]+', 1, 2)) = 'null' then null else regexp_substr(val_param, '[^:]+', 1, 2) end;
+
+   BEGIN
+      select texto into str_cadena from nexus_gis.sms_text where  tipo= 'TECNICA' and id = idtexto;
+
+      if val_param is null then
+
+            v_retorno:= str_cadena;
+
+      else
+            
+            v_retorno:= replace(str_cadena,':REC',v_reclamo);
+            if v_tiempo is not null then
+                v_retorno:= replace(v_retorno,':TIE',v_tiempo);
+            end if;
+
+      end if;
+
+       return(v_retorno);
+   EXCEPTION
+   WHEN OTHERS THEN
+        v_retorno :=  'SMS|-1';
+        return(v_retorno);
+
+   END sms_texto;
+
+END sms;
+/

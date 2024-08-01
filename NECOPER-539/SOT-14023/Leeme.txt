@@ -1,0 +1,16 @@
+El archivo EditForm.js se encuentra en la siguiente ruta: 
+>>C:\Temp\GELEC\GELEC_FRONTEND\src\Components\EditForm.js
+
+
+
+Reemplazar el archivo que se deposito en: 
+>>Q:\DesSistemasTecnicos\Desarrollo Propios\Desarrollos Propios 2022\Tickets\SOT-14023
+
+
+O editar la fila 151 y 152 por: 
+>>new Date().toLocaleString('es-AR', {timeZone: 'America/Argentina/Buenos_Aires'})
+
+
+
+
+
