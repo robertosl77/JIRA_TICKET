@@ -1,0 +1,23 @@
+		//29/10/2022 rsleiva del archivo seleccionado, si tiene el formato "TE_EDENOR_2022_84.xlsx" se  toma el 84 y se precarga. 
+		let disabledBtn=false;
+		let nroLote=null;
+		if (this.props.file.name!==undefined){
+			let archivo=this.props.file.name;
+			archivo+='';
+			if (archivo.indexOf('_')>0){
+				nroLote=archivo.split('_');
+				if (nroLote[3]===undefined) {
+					nroLote=null;
+				} else if(nroLote[3].indexOf('.')===0) {
+					nroLote=null;
+				} else {
+					nroLote= nroLote[3].substr(0,nroLote[3].indexOf('.'));
+					disabledBtn=true;
+					this.state.lote=nroLote;
+					// swal({
+					// 	text: n,
+					// 	icon: "success",
+					//   });
+				}
+			}
+		}

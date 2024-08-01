@@ -1,0 +1,32 @@
+
+
+   ______________________________________________________________________________________________________________
+
+                     EJECUCION DE PROCESO - DATE: 27/04/23 12:44:48 - DATABASE: GISPR02
+                                               SCRIPT EJECUTADO: /stage/gis/imple/procesos/TMT/trans/TPR/batch/NECOPER-677_WORK_ARROUND.ksh
+
+   ______________________________________________________________________________________________________________
+
+    * 27/04/23 12:44:48 - Iniciando ejecucion ............... 
+
+
+
+    * 27/04/23 12:44:48 - Detalle Ejecucion proceso ............... 
+
+						FECHA_FIN_CORTE= F_OMS.FECHA_RESTAURACION
+						                 *
+ERROR at line 86:
+ORA-06550: línea 86, columna 24:
+PL/SQL: ORA-00904: "F_OMS"."FECHA_RESTAURACION": identificador no válido
+ORA-06550: línea 83, columna 6:
+PL/SQL: SQL Statement ignored
+ORA-06550: línea 114, columna 53:
+PLS-00225: subprogram or cursor 'C_GELEC' reference is out of scope
+ORA-06550: línea 112, columna 5:
+PL/SQL: Statement ignored
+
+
+
+
+    * 27/04/23 12:44:48 - Fin Ejecucion proceso ............... 
+

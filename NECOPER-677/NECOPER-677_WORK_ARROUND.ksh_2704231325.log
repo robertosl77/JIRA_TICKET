@@ -1,0 +1,57 @@
+
+
+   ______________________________________________________________________________________________________________
+
+                     EJECUCION DE PROCESO - DATE: 27/04/23 13:25:16 - DATABASE: GISPR02
+                                               SCRIPT EJECUTADO: /stage/gis/imple/procesos/TMT/trans/TPR/batch/NECOPER-677_WORK_ARROUND-1.ksh
+
+   ______________________________________________________________________________________________________________
+
+    * 27/04/23 13:25:16 - Iniciando ejecucion ............... 
+
+
+
+    * 27/04/23 13:25:19 - Detalle Ejecucion proceso ............... 
+
+3447906531
+8794145
+AFECTACION #1
+ID_DOC_CLIENTE: 52431
+INICIO: 12/09/20 POR 12/09/20 FIN: 12/09/20 POR 12/09/20
+Corresponde actualizar!
+Insertamos nota>> ID_NOTA: 133343 LOG_DESDE: 536716
+AFECTACION #2
+ID_DOC_CLIENTE: 52743
+Corresponde anular!
+Insertamos nota>> ID_NOTA: 133344 LOG_DESDE: 536717
+-------------------------------------------------------------------------
+3447906531
+11045281
+AFECTACION #1
+ID_DOC_CLIENTE: 291452
+INICIO: 03/04/23 POR 03/04/23 FIN: 03/04/23 POR 03/04/23
+Corresponde actualizar!
+Insertamos nota>> ID_NOTA: 133345 LOG_DESDE: 536718
+AFECTACION #2
+ID_DOC_CLIENTE: 291611
+INICIO: 03/04/23 POR 03/04/23 FIN: 03/04/23 POR 03/04/23
+Corresponde actualizar!
+Insertamos nota>> ID_NOTA: 133346 LOG_DESDE: 536719
+AFECTACION #3
+ID_DOC_CLIENTE: 291634
+INICIO: 03/04/23 POR 03/04/23 FIN: 03/04/23 POR 03/04/23
+Corresponde actualizar!
+Insertamos nota>> ID_NOTA: 133347 LOG_DESDE: 536720
+AFECTACION #4
+ID_DOC_CLIENTE: 291685
+Corresponde anular!
+Insertamos nota>> ID_NOTA: 133348 LOG_DESDE: 536721
+AFECTACION #5
+ID_DOC_CLIENTE: 292727
+Corresponde anular!
+Insertamos nota>> ID_NOTA: 133349 LOG_DESDE: 536722
+-------------------------------------------------------------------------
+
+
+    * 27/04/23 13:25:19 - Fin Ejecucion proceso ............... 
+
