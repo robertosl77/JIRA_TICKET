@@ -1,0 +1,53 @@
+{
+  "name": "gelec-front-end",
+  "version": "1.30.0",
+  "homepage": "/GELEC/",
+  "private": true,
+  "dependencies": {
+    "@amcharts/amcharts4": "^4.10.22",
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/free-regular-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@sweetalert/with-react": "^0.1.1",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.5.3",
+    "downloadjs": "^1.4.7",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.4",
+    "react-select": "^3.1.1",
+    "react-table": "^6.11.5",
+    "react-toastify": "^5.5.0",
+    "reactstrap": "^8.7.1",
+    "sweetalert": "^2.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      ">0.3%",
+      "not ie 11",
+      "not dead",
+      "not op_mini all",
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
