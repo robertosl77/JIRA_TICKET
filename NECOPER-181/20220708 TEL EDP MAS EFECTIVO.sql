@@ -1,0 +1,24 @@
+select * from all_tables where owner='GELEC' and table_name like '%CONT%';
+
+select * from GELEC.ed_clientes;
+SELECT * FROM GELEC.ED_CONTACTOS_CLIENTES WHERE CUENTA='0027586160' order by id_tel desc;
+SELECT * FROM GELEC.ed_cliente_nota WHERE CUENTA='0027586160';
+select * from GELEC.ed_notas where iddestino =8489;
+
+SELECT DISTINCT CUENTA, TELEFONO, TIPO FROM (
+    SELECT C.CUENTA, T.TELEFONO, T.TIPO_CONTACTO TIPO, NVL( SUM(N.EFECTIVO),0) SUMA
+    FROM 
+        GELEC.ED_CLIENTES C, 
+        GELEC.ED_CONTACTOS_CLIENTES T,
+        GELEC.ED_NOTAS N
+    WHERE
+      C.CUENTA=T.CUENTA
+      AND C.F_BAJA IS NULL
+      AND T.ID_TEL=N.IDDESTINO(+)
+      AND T.FECHA_BAJA IS NOT NULL
+    GROUP BY
+      C.CUENTA, T.TELEFONO, T.TIPO_CONTACTO
+    ORDER BY
+      C.CUENTA, NVL( SUM(N.EFECTIVO),0) DESC
+) T 
+;
